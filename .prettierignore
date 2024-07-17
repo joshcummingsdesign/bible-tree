@@ -1,0 +1,8 @@
+# Ignore node modules
+node_modules/*
+
+# Ignore Directories
+.next/*
+
+# Ignore Files
+package-lock.json
