@@ -18,7 +18,7 @@ interface FamilyNode {
     alt_names?: string[];
     gender: 'male' | 'female';
     category?: 'jew' | 'gentile';
-    type?: 'person' | 'patriarch' | 'prophet' | 'priest' | 'nation';
+    type?: 'person' | 'patriarch' | 'prophet' | 'priest' | 'king' | 'nation';
     link?: string;
     notes?: string;
 }
@@ -201,6 +201,9 @@ export const FamilyTree = ({nodes}: Props) => {
                         break;
                     case 'priest':
                         args.value = '🙏';
+                        break;
+                    case 'king':
+                        args.value = '👑';
                         break;
                     case 'nation':
                         args.value = '🌐';
