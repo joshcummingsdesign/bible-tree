@@ -1,0 +1,9 @@
+.container {
+    height: 100vh;
+
+    &[data-has-roots='true'] {
+        g[data-ctrl-up-id] {
+            display: none;
+        }
+    }
+}
