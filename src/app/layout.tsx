@@ -19,10 +19,7 @@ const fontMain = Red_Hat_Display({
 export default function RootLayout({children}: {children: React.ReactNode}) {
     return (
         <html lang="en">
-            <body className={css(fontHeading.variable, fontMain.variable)}>
-                {children}
-                <script src="/familytree.js"></script>
-            </body>
+            <body className={css(fontHeading.variable, fontMain.variable)}>{children}</body>
         </html>
     );
 }
