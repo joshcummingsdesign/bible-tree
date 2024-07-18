@@ -19,9 +19,8 @@ interface FamilyNode {
     gender: 'male' | 'female';
     category?: 'jew' | 'gentile';
     type?: 'person' | 'patriarch' | 'prophet' | 'priest' | 'nation';
-    notes?: string;
-    icon?: string;
     link?: string;
+    notes?: string;
 }
 
 interface Props {
@@ -60,32 +59,67 @@ export const FamilyTree = ({nodes}: Props) => {
             const value: string[] = data[editElement.binding] || [];
             const items = value.map((v: string) => `<li>${v}</li>`);
 
-            if (items.length === 0) {
-                return {
-                    html: '',
-                };
-            }
-
-            return {
-                html: `
-                    <label
-                        for="${id}"
-                        style="
-                            padding: 0 12px;
-                            font-family: Helvetica;
-                            color: #acacac;
-                            font-size: 13px;
-                        ">${editElement.label}</label>
+            let html = `
+                <label
+                    for="${id}"
+                    style="
+                        padding: 0 12px;
+                        font-family: Helvetica;
+                        color: #acacac;
+                        font-size: 13px;
+                    ">${editElement.label}</label>
+            `;
+            if (items.length > 0) {
+                html += `
                     <ul
                         style="
+                            width: 100%;
                             font-size: 15px;
                             padding: 0 12px 0 28px;
                             list-style-type: disc;
                         ">${items.join('')}</ul>
-                `,
-                id: id,
-                value: value,
-            };
+                `;
+            } else {
+                html += `
+                    <ul
+                        style="
+                            width: 100%;
+                            font-size: 15px;
+                            padding: 0 12px 0 28px;
+                            list-style-type: disc;
+                        "><li>No notes.</li></ul>
+                `;
+            }
+
+            return {html, id, value};
+        };
+
+        // Add link text
+        window.FamilyTree.elements.linkText = (
+            data: {[key: string]: string},
+            editElement: {label: string; binding: string},
+            minWidth: number,
+            readOnly: boolean
+        ) => {
+            const id = window.FamilyTree.elements.generateId();
+            const value: string | undefined = data[editElement.binding];
+
+            let html = '';
+            if (value) {
+                html = `
+                <a
+                    target="_blank"
+                    href="${value}"
+                    style="
+                        color: #3100ff;
+                        margin-top: 5px;
+                        font-size: 15px;
+                        padding: 0 12px 0 28px;
+                    ">View More</a>
+                `;
+            }
+
+            return {html, id, value};
         };
 
         // Instantiate with configuration
@@ -94,7 +128,8 @@ export const FamilyTree = ({nodes}: Props) => {
                 field_0: 'name',
                 field_1: 'alt_names',
                 field_2: 'category',
-                field_3: 'notes',
+                field_3: 'link',
+                field_4: 'notes',
                 icon: 'type',
             },
             editForm: {
@@ -104,7 +139,10 @@ export const FamilyTree = ({nodes}: Props) => {
                     pdf: null,
                 },
                 generateElementsFromFields: false,
-                elements: [{type: 'notesTextArea', label: 'notes', binding: 'notes'}],
+                elements: [
+                    {type: 'notesTextArea', label: 'notes', binding: 'notes'},
+                    {type: 'linkText', label: 'link', binding: 'link'},
+                ],
             },
             mouseScrool: window.FamilyTree.action.yScroll,
             zoom: {
@@ -143,14 +181,16 @@ export const FamilyTree = ({nodes}: Props) => {
             }
         });
 
-        // Add links to nodes
+        // Customize nodes
         family.onField((args: {name: string; value: string; data: FamilyNode}) => {
+            // Add links to nodes
             if (args.name === 'name' && args.data.link) {
                 const name = args.data.name;
                 const link = args.data.link;
-                args.value = `<a target="_blank" href="${link}">${name}</a>`;
+                args.value = `<a style="fill: #ffffff;" target="_blank" href="${link}">${name}</a>`;
             }
 
+            // Add icons to nodes
             if (args.name === 'type') {
                 switch (args.data.type) {
                     case 'patriarch':

@@ -1,3 +1,5 @@
+@use '../../styles/colors' as *;
+
 .container {
     height: 100vh;
 
@@ -5,5 +7,34 @@
         g[data-ctrl-up-id] {
             display: none;
         }
+    }
+
+    [class~='bft-edit-form-header'] {
+        background-color: $light-grey !important;
+        height: auto;
+        padding: 20px;
+
+        h1 {
+            color: $black;
+            line-height: 1.5;
+        }
+    }
+
+    [class~='bft-edit-form-close'] {
+        path {
+            fill: $black !important;
+        }
+    }
+
+    [class~='bft-edit-form-instruments'] {
+        display: none;
+    }
+
+    [class~='bft-edit-form-avatar'] {
+        display: none;
+    }
+
+    [class~='bft-edit-form-fields'] {
+        padding-top: 20px;
     }
 }

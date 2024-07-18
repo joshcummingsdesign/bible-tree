@@ -8,14 +8,23 @@
             "mid": 2,
             "name": "Cain",
             "gender": "male",
+            "type": "person",
             "notes": [
                 "Kills his brother Abel.",
                 "Sentenced by God to be a fugitive.",
                 "Wishes death, but God says if anyone kills him (implies Adam has other children) vengeance shall be taken on him sevenfold."
-            ],
-            "type": "person"
+            ]
         },
-        {"id": 4, "fid": 1, "mid": 2, "name": "Abel", "gender": "male", "category": "jew", "type": "person"},
+        {
+            "id": 4,
+            "fid": 1,
+            "mid": 2,
+            "name": "Abel",
+            "gender": "male",
+            "category": "jew",
+            "type": "person",
+            "notes": ["Killed by his brother Abel."]
+        },
         {"id": 5, "fid": 1, "mid": 2, "name": "Seth", "gender": "male", "type": "person"},
         {"id": 7, "fid": 3, "name": "Lamech", "gender": "male", "category": "gentile", "type": "person"},
         {"id": 8, "fid": 5, "name": "Enosh", "gender": "male", "type": "person"},
