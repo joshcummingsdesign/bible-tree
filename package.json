@@ -11,6 +11,12 @@
         "test:ci": "jest --ci"
     },
     "dependencies": {
+        "@emotion/cache": "^11.12.0",
+        "@emotion/react": "^11.12.0",
+        "@emotion/styled": "^11.12.0",
+        "@mui/icons-material": "^5.16.4",
+        "@mui/material": "^5.16.4",
+        "@mui/material-nextjs": "^5.16.4",
         "@uidotdev/usehooks": "^2.4.1",
         "d3-org-chart": "^3.1.1",
         "downshift": "^9.0.6",

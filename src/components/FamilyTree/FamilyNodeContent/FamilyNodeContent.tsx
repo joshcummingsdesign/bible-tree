@@ -7,11 +7,16 @@ interface Props {
     node: FamilyNode;
 }
 
+/**
+ * This is appended to the DOM in an SVG, so SCSS must be used.
+ */
 export const FamilyNodeContent: FC<Props> = ({node}) => {
     const {id, name, alt_names, gender, type} = node;
     return (
         <div className={css(styles.container, 'btr-node-container', gender)} data-node-id={id}>
-            <h2 className={styles.name}>{name}</h2>
+            <h2 className={styles.name} style={{fontFamily: 'var(--font-heading)'}}>
+                {name}
+            </h2>
             <p className={styles.alt_names}>{alt_names?.join(', ')}</p>
             <button className={css(styles.icon, 'btr-node-icon')} data-node-id={id}>
                 <FamilyNodeIcon type={type} />

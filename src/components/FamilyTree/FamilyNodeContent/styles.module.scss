@@ -1,16 +1,14 @@
-@use '../../../styles/colors' as *;
-
 .container {
     position: relative;
-    background-color: $blue;
-    color: $white;
+    background-color: var(--blue);
+    color: var(--white);
     padding: 30px 60px 30px 30px;
     align-items: center;
     border-radius: 8px;
     height: 100%;
 
     &[class~='female'] {
-        background-color: $pink;
+        background-color: var(--pink);
     }
 }
 

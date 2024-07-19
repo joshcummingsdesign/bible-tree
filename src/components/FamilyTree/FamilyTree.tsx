@@ -7,6 +7,7 @@ import {FamilyNode} from '@/lib/types';
 import {FamilyNodeContent} from './FamilyNodeContent';
 import {SearchInput} from './SearchInput';
 import styles from './styles.module.scss';
+import {styled} from '@mui/material';
 
 interface Props {
     data: FamilyNode[];
