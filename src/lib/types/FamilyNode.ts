@@ -1,8 +1,6 @@
 export interface FamilyNode {
     id: number;
-    pids?: number[];
-    mid?: number;
-    fid?: number;
+    parentId?: number;
     name: string;
     alt_names?: string[];
     gender: 'male' | 'female';
@@ -10,4 +8,7 @@ export interface FamilyNode {
     type?: 'person' | 'patriarch' | 'prophet' | 'priest' | 'king' | 'nation';
     link?: string;
     notes?: string[];
+    _expanded?: boolean;
+    _highlighted?: boolean;
+    _upToTheRootHighlighted?: boolean;
 }

@@ -1,19 +1,21 @@
 import {FC} from 'react';
 import {FamilyNode} from '@/lib/types';
+import {combineClassNames as css} from '@/lib/utils/combineClassNames';
 import styles from './styles.module.scss';
 
 interface Props {
-    data: FamilyNode;
+    node: FamilyNode;
 }
 
-export const FamilyNodeContent: FC<Props> = ({data: {name, alt_names, type}}) => {
+export const FamilyNodeContent: FC<Props> = ({node}) => {
+    const {id, name, alt_names, gender, type} = node;
     return (
-        <div className={styles.container}>
+        <div className={css(styles.container, 'btr-node-container', gender)} data-node-id={id}>
             <h2 className={styles.name}>{name}</h2>
             <p className={styles.alt_names}>{alt_names?.join(', ')}</p>
-            <span className={styles.icon}>
+            <button className={css(styles.icon, 'btr-node-icon')} data-node-id={id}>
                 <FamilyNodeIcon type={type} />
-            </span>
+            </button>
         </div>
     );
 };
