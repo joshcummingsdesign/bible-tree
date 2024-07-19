@@ -51,6 +51,10 @@
         font-size: 15px;
         padding: 0 12px 0 28px;
         list-style-type: disc;
+
+        a {
+            color: $purple;
+        }
     }
 
     // Edit menu link text

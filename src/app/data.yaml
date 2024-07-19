@@ -18,10 +18,8 @@ nodes:
       gender: male
       type: person
       notes:
-          - Kills his brother Abel.
-          - Sentenced by God to be a fugitive.
-          - Wishes death, but God says if anyone kills him (implies Adam has other children)
-            vengeance shall be taken on him sevenfold.
+          - By the time of the death of Abel, Adam and Eve had many descendants.
+            Thus, Cain says whoever will find him will kill him (cf. Gen. 4:14,25,5:3).
     - id: 4
       fid: 1
       mid: 2
@@ -29,8 +27,6 @@ nodes:
       gender: male
       category: jew
       type: person
-      notes:
-          - Killed by his brother Abel.
     - id: 5
       fid: 1
       mid: 2
@@ -38,1523 +34,1505 @@ nodes:
       gender: male
       type: person
       notes:
-          - Born after Cain kills Abel.
-          - In his time people begin turning to God.
-          - His descendants begin to take ungodly wives merely because they are attractive.
-          - 'In his time the Nephilim (Hebrew: "fallen ones"), who are giants, are on the
-            earth.'
-          - Corruption begins to increase such that every intention of the thoughts of man's
-            heart is only evil continually.
-    - id: 7
-      fid: 3
-      name: Lamech
-      gender: male
-      category: gentile
-      type: person
-      notes:
-          - He says if Cain's revenge is sevenfold, his revenge is seventy-seven-fold.
-    - id: 8
-      fid: 5
-      name: Enosh
-      gender: male
-      type: person
-    - id: 9
-      fid: 8
-      name: Kenan
-      gender: male
-      type: person
-    - id: 10
-      fid: 9
-      name: Mahalalel
-      gender: male
-      type: person
-    - id: 11
-      fid: 10
-      name: Jared
-      gender: male
-      type: person
-    - id: 12
-      fid: 11
-      name: Enoch
-      gender: male
-      type: person
-      notes:
-          - Walked with God.
-          - In his old age he was not found because God took him.
-    - id: 13
-      fid: 12
-      name: Methuselah
-      gender: male
-      type: person
-    - id: 14
-      fid: 13
-      name: Lamech
-      gender: male
-      type: person
-    - id: 15
-      fid: 14
-      name: Noah
-      gender: male
-      type: person
-      notes:
-          - A righteous man who finds favor with God.
-          - In his time, God floods the earth and blots out every living thing.
-          - He trusts in God, and he and his seven family members are saved from the flood.
-          - God makes a covenant with him.
-          - Later he becomes drunk and is shamed by his son Ham.
-    - id: 16
-      fid: 15
-      name: Shem
-      gender: male
-      type: person
-      notes:
-          - Blessed by his father Noah.
-    - id: 17
-      fid: 15
-      name: Ham
-      gender: male
-      category: gentile
-      type: person
-      notes:
-          - Shamed his father Noah.
-          - Cursed by his father Noah.
-    - id: 19
-      fid: 15
-      name: Japheth
-      gender: male
-      type: person
-      notes:
-          - Blessed by his father Noah, though Shem is given pride of place.
-          - 'Fathers Magog (Hebrew: "place of the roof").'
-    - id: 20
-      fid: 19
-      name: Gomer
-      gender: male
-      type: person
-    - id: 21
-      fid: 19
-      name: Magog
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'Hebrew: "place of the roof".'
-    - id: 23
-      fid: 19
-      name: Javan
-      gender: male
-      category: gentile
-      type: person
-    - id: 24
-      fid: 19
-      name: Tubal
-      gender: male
-      category: gentile
-      type: person
-    - id: 25
-      fid: 19
-      name: Meshech
-      gender: male
-      category: gentile
-      type: person
-    - id: 27
-      fid: 20
-      name: Ashkenaz
-      gender: male
-      category: jew
-      type: person
-    - id: 29
-      fid: 20
-      name: Togarmah
-      gender: male
-      category: gentile
-      type: person
-    - id: 30
-      fid: 23
-      name: Elishah
-      gender: male
-      category: gentile
-      type: person
-    - id: 31
-      fid: 23
-      name: Tarshish
-      gender: male
-      category: gentile
-      type: person
-    - id: 32
-      fid: 23
-      name: Kittim
-      gender: male
-      category: gentile
-      type: person
-    - id: 34
-      fid: 17
-      name: Cush
-      alt_names:
-          - Ethiopia
-      gender: male
-      category: gentile
-      type: nation
-    - id: 35
-      fid: 17
-      name: Egypt
-      alt_names:
-          - Pharaoh
-      gender: male
-      category: gentile
-      type: nation
-    - id: 36
-      fid: 17
-      name: Put
-      alt_names:
-          - Libya
-      gender: male
-      category: gentile
-      type: nation
-    - id: 37
-      fid: 17
-      name: Canaan
-      alt_names:
-          - Canaanites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - After Rahab hides the spies, Joshua defeats the Canaanites at Jericho after they
-            march around the city for 7 days with 7 priests blowing 7 trumpets before the
-            ark. On the 7th day they circle 7 times and shout, and the wall comes down. Joshua
-            curses anyone who rebuilds Jericho.
-          - Jabin, Cannanite king of Hazor (a major Canaanite city which fell within the territory
-            that later became Naphtali), gathers the kings of northern Canaan against Israel.
-            The Lord delivers them into Israel’s hands under Joshua. They capture Hazor, and
-            ultimately all of northern Canaan.
-          - Adoni-zedek, Jebusite king of Jerusalem, gathers four Amorite kings against the
-            Gibeonites, who allied with Israel under Joshua. The Lord delivers them into Israel's
-            hands, makes the sun stand still, and throws down large hailstones from heaven
-            on them to defeat them. Joshua has the five kings executed, and the Lord delivers
-            southern Canaan into Israel's hands.
-    - id: 38
-      fid: 17
-      name: Amalek
-      alt_names:
-          - Amalekites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - During the Exodus, Israel under Moses defeats Amalek at Rephidim (the wilderness
-            of Sin and the wilderness of Sinai) when Joshua leads them in battle, and Aaron
-            and Hur lift up Moses' hands.
-    - id: 39
-      fid: 16
-      name: Elam
-      alt_names:
-          - Elamites
-      gender: male
-      category: gentile
-      type: nation
-    - id: 45
-      fid: 1
-      mid: 2
-      name: Nephilim
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'In Seth''s time the Nephilim (Hebrew: "fallen ones"), who are giants, are on
-            the earth.'
-    - id: 51
-      fid: 35
-      name: Caphtor
-      alt_names:
-          - Caphtorim
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Defeat the Avvim and settle in and around Gaza
-          - The Philistines descend from them
-    - id: 52
-      fid: 51
-      name: Philistia
-      alt_names:
-          - Philistines
-          - Abimelech
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Their five major cities (pentapolis) are Gaza, Ashdod, Ashkelon, Gath, and Ekron.
-          - 'The generic name given to their kings is Abimelech (Hebrew: "My Father is King").'
-    - id: 58
-      fid: 21
-      name: Gog
-      gender: male
-      category: gentile
-      type: king
-      notes:
-          - 'Hebrew: "roof".'
-          - 'King of Magog (Hebrew: "place of the roof").'
-          - A future king who is prophesied to come and war with the people of God.
-    - id: 59
-      fid: 37
-      name: Lebanon
-      alt_names:
-          - Phoenicia
-      gender: male
-      category: gentile
-      type: nation
-    - id: 60
-      fid: 59
-      name: Sidon
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Settle in Lebanon, north of Tyre.
-    - id: 61
-      fid: 59
-      name: Tyre
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Settle in Lebanon, south of Sidon.
-    - id: 62
-      fid: 37
-      name: Heth
-      alt_names:
-          - Hittites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - After Sarah dies in Hebron (20 miles south of Jerusalem), Abraham buys Machpelah
-            for 400 shekels from them (specifically Ephron the Hittite) as a burial ground.
-            Sarah, Abraham, Isaac, Rebekah, Jacob, and Leah are buried there.
-    - id: 63
-      fid: 37
-      name: Jebusites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'Settle in or near Mount Moriah, Mount Zion to the west, and the Mount of Olives
-            to the east in Jerusalem (Hebrew: “foundation of peace” or “awe of completeness”,
-            also called Salem).'
-          - Adoni-zedek, Jebusite king of Jerusalem, gathers four Amorite kings against the
-            Gibeonites, who allied with Israel under Joshua. The Lord delivers them into Israel's
-            hands, makes the sun stand still, and throws down large hailstones from heaven
-            on them to defeat them. Joshua has the five kings executed, and the Lord delivers
-            southern Canaan into Israel's hands.
-    - id: 64
-      fid: 37
-      name: Amorites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Sihon was the king of the Amorites in Heshbon (which was in the land that became
-            Gilead, named after a descendant of Manasseh) until Israel defeated him under
-            Moses.
-          - After Achan is killed for stealing from things devoted to the Lord, Joshua defeats
-            the Amorites at Ai (east of Bethel, where Abraham and Jacob had built altars)
-            in an ambush, takes the city, and hangs their king.
-    - id: 65
-      fid: 37
-      name: Girgashites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Not much is known about them. Jewish tradition holds that they fled Canaan during
-            Israel's conquest under Joshua.
-    - id: 66
-      fid: 37
-      name: Hivites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Settled in or near Mount Hermon (northern boundary of the land of the Amorites
-            east of the Jordan)
-          - Shechem the Hivite defiles Dinah, and Simeon and Levi go to avenge their sister.
-    - id: 67
-      fid: 37
-      name: Perizzites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'Hebrew: "villagers".'
-          - They dwell in Canaan.
-    - id: 68
-      fid: 37
-      name: Rephaim
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'Hebrew: "faded ones".'
-          - Giants who dwell in Canaan.
-          - Og was said to be the last of the Rephaim, and was the king of Bashan in the city
-            of Ashtaroth (named after the pagan goddess Asherah who was often worshiped along
-            with Baal, her idols were wooden poles) in the land of the Amorites until Israel
-            defeated him under Moses.
-    - id: 69
-      fid: 63
-      name: Adoni-zedek
-      gender: male
-      category: gentile
-      type: king
-      notes:
-          - Jebusite king of Jerusalem in the time of Joshua
-          - Gathers four Amorite kings against the Gibeonites, who allied with Israel under
-            Joshua. The Lord delivers them into Israel's hands, makes the sun stand still,
-            and throws down large hailstones from heaven on them to defeat them. Joshua has
-            the five kings executed, and the Lord delivers southern Canaan into Israel's hands.
-    - id: 70
-      fid: 64
-      name: Mamre
-      gender: male
-      category: gentile
-      type: person
-    - id: 71
-      fid: 64
-      name: Sihon
-      gender: male
-      category: gentile
-      type: king
-      notes:
-          - King of the Amorites in Heshbon (which was in the land that became Gilead, named
-            after a descendant of Manasseh) until Israel defeated him under Moses.
-    - id: 72
-      fid: 66
-      name: Gibeon
-      alt_names:
-          - Gibeonites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Settle in Gibeon, northwest of Jerusalem.
-          - They are a "great city", "greater than Ai", whose men are warriors.
-          - They fear Israel, so they deceive Joshua into making a covenant with them.
-    - id: 73
-      fid: 68
-      name: Zamzummim
-      alt_names:
-          - Zuzim
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'Hebrew: "schemers".'
-          - Dwell in what came to be called Ammon.
-    - id: 74
-      fid: 68
-      name: Emim
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'Hebrew: "the dreaded ones".'
-          - Dwell in what came to be called Moab.
-    - id: 75
-      fid: 68
-      name: Anak
-      alt_names:
-          - Anakim
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'Hebrew: "long-necked".'
-          - Dwell in what came to be called Hebron (20 miles south of Jerusalem).
-          - Joshua cuts off all the Anakim in Canaan. They only remain in Gaza and Ashdod
-            (land of the Philistines).
-    - id: 76
-      fid: 68
-      name: Og
-      gender: male
-      category: gentile
-      type: king
-      notes:
-          - Was said to be the last of the Rephaim, and was the king of Bashan in the city
-            of Ashtaroth (named after the pagan goddess Asherah who was often worshiped along
-            with Baal, her idols were wooden poles) in the land of the Amorites until Israel
-            defeated him under Moses.
-    - id: 77
-      fid: 104
-      name: Shelah
-      gender: male
-      type: person
-    - id: 78
-      fid: 77
-      name: Eber
-      alt_names:
-          - Hebrews
-      gender: male
-      type: person
-      notes:
-          - The word "Hebrew" is derived from his name.
-    - id: 79
-      fid: 78
-      name: Peleg
-      gender: male
-      type: person
-      notes:
-          - His name means "division" in Hebrew as it is said that in his day the earth was
-            divided. This may be a reference to when God scattered all peoples from Babel.
-    - id: 80
-      fid: 79
-      name: Reu
-      gender: male
-      type: person
-    - id: 81
-      fid: 80
-      name: Serug
-      gender: male
-      type: person
-    - id: 82
-      fid: 81
-      name: Nahor
-      gender: male
-      type: person
-    - id: 83
-      fid: 82
-      name: Terah
-      gender: male
-      type: person
-    - id: 84
-      pids:
-          - 90
-          - 91
-          - 94
-      fid: 83
-      name: Abraham
-      alt_names:
-          - Abram
-      gender: male
-      type: patriarch
-      notes:
-          - God makes a covenant with him and he leaves Babylon (Ur of the Chaldeans) toward
-            the land of Canaan, and first settles in Paddan-aram (Haran), from which the Arameans
-            derive their name (modern Syria).
-    - id: 85
-      pids:
-          - 122
-      fid: 83
-      name: Nahor
-      gender: male
-      category: jew
-      type: person
-    - id: 86
-      fid: 83
-      name: Haran
-      gender: male
-      type: person
-    - id: 87
-      fid: 86
-      name: Lot
-      gender: male
-      type: person
-    - id: 88
-      fid: 87
-      name: Moab
-      alt_names:
-          - Moabites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'Hebrew: "from father".'
-          - Lot fathers him by his firstborn daughter (for his daughters deceive him) after
-            God destroys Sodom and Gomorrah.
-    - id: 89
-      fid: 87
-      name: Ben-ammi
-      alt_names:
-          - Ammon
-          - Ammonites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - 'Hebrew: "son of my people".'
-          - Lot fathers him by his younger daughter (for his daughters deceive him) after
-            God destroys Sodom and Gomorrah.
-    - id: 90
-      pids:
-          - 84
-      name: Sarah
-      alt_names:
-          - Sarai
-      gender: female
-      category: jew
-      type: person
-    - id: 91
-      pids:
-          - 84
-      name: Hagar
-      alt_names:
-          - Hagrites
-      gender: female
-      type: person
-      notes:
-          - Sarah's Egyptian servant.
-          - Mother of Ishmael, Abraham's first son by her.
-          - Sarah deals harshly with her, but God protects her and Ishmael.
-    - id: 92
-      fid: 84
-      mid: 91
-      name: Ishmael
-      alt_names:
-          - Ishmaelites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Abraham's first son by Hagar, Sarah's Egyptian servant.
-    - id: 93
-      pids:
-          - 119
-      fid: 84
-      mid: 90
-      name: Isaac
-      gender: male
-      type: patriarch
-      notes:
-          - Abraham’s son by Sarah as promised by God.
-          - Marries Rebekah the Aramean (daughter of Laban, son of Nahor).
-    - id: 94
-      pids:
-          - 84
-      name: Keturah
-      gender: female
-      type: person
-    - id: 98
-      fid: 84
-      mid: 94
-      name: Midian
-      alt_names:
-          - Midianites
-          - Kenites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - The Midianites become allies with the Moabites and hire Balaam to curse Israel,
-            but God makes him bless Israel, and he prophesies the coming of the Messiah. Balaam
-            returns to Midian where he and the Midianites scheme to make Israel go after Baal
-            at Peor in Moab. The Midianites and Balaam are defeated by Israel under Moses.
-    - id: 101
-      fid: 98
-      name: Jethro
-      alt_names:
-          - Reuel
-          - Hobab
-      gender: male
-      category: jew
-      type: person
-    - id: 102
-      fid: 101
-      name: Hobab
-      gender: male
-      category: jew
-      type: person
-    - id: 103
-      fid: 16
-      name: Asshur
-      gender: male
-      category: gentile
-      type: person
-      notes:
-          - Builds Nineveh, a major city in Assyria.
-    - id: 104
-      fid: 16
-      name: Arpachshad
-      gender: male
-      type: person
-    - id: 105
-      fid: 16
-      name: Lud
-      gender: male
-      category: gentile
-      type: person
-    - id: 106
-      fid: 16
-      name: Aram
-      alt_names:
-          - Arameans
-      gender: male
-      category: gentile
-      type: nation
-    - id: 107
-      fid: 92
-      name: Nebaioth
-      gender: male
-      category: gentile
-      type: person
-    - id: 108
-      fid: 92
-      name: Kedar
-      gender: male
-      category: gentile
-      type: person
-    - id: 112
-      fid: 92
-      name: Dumah
-      gender: male
-      category: gentile
-      type: person
-    - id: 115
-      fid: 92
-      name: Tema
-      gender: male
-      category: gentile
-      type: person
-    - id: 119
-      pids:
-          - 93
-      name: Rebekah
-      gender: female
-      category: jew
-      type: person
-      notes:
-          - Daughter of Laban the Aramean, son of Nahor.
-    - id: 120
-      fid: 93
-      mid: 119
-      name: Esau
-      alt_names:
-          - Edom
-          - Edomites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Isaac's firstborn son, Jacob's twin brother
-          - Name means "well-made" in Hebrew
-          - Takes for himself Canaanite and Ishmaelite wives
-          - 'Becomes the nation of Edom (Hebrew: "red", reference to Esau''s appearance at
-            birth).'
-          - Edom defeats the Horites in Seir and settle in their land.
-    - id: 121
-      pids:
-          - 125
-          - 126
-          - 133
-          - 134
-      fid: 93
-      mid: 119
-      name: Jacob
-      alt_names:
-          - Israel
-      gender: male
-      type: patriarch
-      notes:
-          - Isaac's younger son, Esau's twin brother.
-          - Name means "deceiver" in Hebrew.
-          - Rebekah sends him to her brother Laban the Aramean and he marries Laban's daughters
-            Leah and Rachel.
-          - His name is changed to Israel which means "strives with God".
-          - Fathers the 12 tribes of Israel.
-    - id: 122
-      pids:
-          - 85
-      name: Milcah
-      gender: female
-      category: jew
-      type: person
-    - id: 123
-      fid: 85
-      mid: 122
-      name: Uz
-      gender: male
-      category: jew
-      type: person
-    - id: 124
-      fid: 251
-      name: Laban
-      gender: male
-      category: jew
-      type: person
-    - id: 125
-      pids:
-          - 121
-      name: Leah
-      gender: female
-      category: jew
-      type: person
-    - id: 126
-      pids:
-          - 121
-      name: Rachel
-      gender: female
-      category: jew
-      type: person
-    - id: 127
-      fid: 121
-      mid: 125
-      name: Reuben
-      gender: male
-      category: jew
-      type: person
-    - id: 128
-      fid: 121
-      mid: 125
-      name: Simeon
-      gender: male
-      category: jew
-      type: person
-    - id: 129
-      fid: 121
-      mid: 125
-      name: Levi
-      gender: male
-      category: jew
-      type: person
-    - id: 130
-      pids:
-          - 204
-      fid: 121
-      mid: 125
-      name: Judah
-      gender: male
-      category: jew
-      type: person
-    - id: 131
-      fid: 121
-      mid: 133
-      name: Dan
-      gender: male
-      category: jew
-      type: person
-    - id: 132
-      fid: 121
-      mid: 133
-      name: Naphtali
-      gender: male
-      category: jew
-      type: person
-    - id: 133
-      pids:
-          - 121
-      name: Bilhah
-      gender: female
-      category: jew
-      type: person
-    - id: 134
-      pids:
-          - 121
-      name: Zilpah
-      gender: female
-      category: jew
-      type: person
-    - id: 135
-      fid: 121
-      mid: 134
-      name: Gad
-      gender: male
-      category: jew
-      type: person
-    - id: 137
-      fid: 121
-      mid: 134
-      name: Asher
-      gender: male
-      category: jew
-      type: person
-    - id: 138
-      fid: 121
-      mid: 125
-      name: Issachar
-      gender: male
-      category: jew
-      type: person
-    - id: 140
-      fid: 121
-      mid: 125
-      name: Zebulun
-      gender: male
-      category: jew
-      type: person
-    - id: 141
-      pids:
-          - 145
-      fid: 121
-      mid: 126
-      name: Joseph
-      gender: male
-      category: jew
-      type: person
-    - id: 142
-      fid: 121
-      mid: 126
-      name: Benjamin
-      gender: male
-      category: jew
-      type: person
-    - id: 143
-      fid: 141
-      mid: 145
-      name: Manasseh
-      gender: male
-      category: jew
-      type: person
-    - id: 144
-      fid: 141
-      mid: 145
-      name: Ephraim
-      gender: male
-      category: jew
-      type: person
-    - id: 145
-      pids:
-          - 141
-      name: Asenath
-      gender: female
-      category: jew
-      type: person
-    - id: 146
-      fid: 39
-      name: Chedorlaomer
-      gender: male
-      category: gentile
-      type: king
-      notes:
-          - King of Elam (later becomes Persia).
-          - Amraphel, king of Shinar (Babylon) gathers him and two other kings to fight against
-            the five kings of the region of Sodom and Gomorrah. Lot gets captured, and Abraham
-            rescues him with just 318 men.
-    - id: 147
-      fid: 39
-      name: Persia
-      alt_names:
-          - Susa
-      gender: male
-      category: gentile
-      type: nation
-    - id: 149
-      fid: 147
-      name: Media
-      alt_names:
-          - Medes
-      gender: male
-      category: gentile
-      type: nation
-    - id: 151
-      fid: 103
-      name: Assyria
-      alt_names:
-          - Nineveh
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Nineveh was a major city in Assyria.
-    - id: 153
-      fid: 120
-      name: Horites
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Edom defeats the Horites and settle in their land.
-    - id: 154
-      fid: 153
-      name: Seir
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Known as Seir the Horite.
-          - Edom defeats the Horites and settle in their land.
-    - id: 155
-      fid: 106
-      name: Syria
-      gender: male
-      category: gentile
-      type: nation
-    - id: 158
-      fid: 127
-      name: Pallu
-      gender: male
-      category: jew
-      type: person
-    - id: 161
-      fid: 34
-      name: Seba
-      gender: male
-      category: gentile
-      type: person
-    - id: 162
-      fid: 34
-      name: Raamah
-      gender: male
-      category: gentile
-      type: person
-    - id: 163
-      fid: 162
-      name: Sheba
-      gender: male
-      category: gentile
-      type: person
-    - id: 164
-      fid: 162
-      name: Dedan
-      gender: male
-      category: gentile
-      type: person
-    - id: 166
-      fid: 34
-      name: Nimrod
-      gender: male
-      category: gentile
-      type: person
-      notes:
-          - Builds Babel (Babylon).
-    - id: 167
-      fid: 166
-      name: Babylon
-      alt_names:
-          - Babel
-          - Shinar
-      gender: male
-      category: gentile
-      type: nation
-    - id: 168
-      fid: 167
-      name: Amraphel
-      gender: male
-      category: gentile
-      type: king
-      notes:
-          - King of Shinar (Babylon).
-          - Gathers three other kings including Chedorlaomer to fight against the five kings
-            of the region of Sodom and Gomorrah. Lot gets captured, and Abraham rescues him
-            with just 318 men.
-    - id: 169
-      fid: 167
-      name: Chaldea
-      alt_names:
-          - Chaldeans
-          - Ur
-      gender: male
-      category: gentile
-      type: nation
-      notes:
-          - Absorbed and assimilated into Babylon.
-          - Ur (the birthplace of Abraham), was a major city in which they settled.
-    - id: 170
-      fid: 120
-      name: Teman
-      alt_names:
-          - Temanites
-      gender: male
-      category: gentile
-      type: person
-    - id: 172
-      fid: 158
-      name: Eliab
-      gender: male
-      category: jew
-      type: person
-    - id: 174
-      fid: 172
-      name: Dathan
-      gender: male
-      category: jew
-      type: person
-    - id: 175
-      fid: 172
-      name: Abiram
-      gender: male
-      category: jew
-      type: person
-    - id: 176
-      fid: 129
-      name: Gerhson
-      alt_names:
-          - Gershom
-      gender: male
-      category: jew
-      type: person
-    - id: 177
-      fid: 129
-      name: Kohath
-      gender: male
-      category: jew
-      type: person
-    - id: 178
-      fid: 129
-      name: Merari
-      gender: male
-      category: jew
-      type: person
-    - id: 179
-      fid: 176
-      name: Asaph
-      gender: male
-      category: jew
-      type: person
-    - id: 180
-      pids:
-          - 182
-      fid: 177
-      name: Amram
-      gender: male
-      category: jew
-      type: person
-    - id: 181
-      fid: 177
-      name: Izhar
-      gender: male
-      category: jew
-      type: person
-    - id: 182
-      pids:
-          - 180
-      name: Jochebed
-      gender: female
-      category: jew
-      type: person
-    - id: 183
-      pids:
-          - 185
-      fid: 180
-      mid: 182
-      name: Aaron
-      gender: male
-      category: jew
-      type: priest
-    - id: 184
-      pids:
-          - 190
-      fid: 180
-      mid: 182
-      name: Moses
-      gender: male
-      category: jew
-      type: prophet
-    - id: 185
-      pids:
-          - 183
-      name: Elisheba
-      gender: female
-      category: jew
-      type: person
-    - id: 186
-      fid: 183
-      mid: 185
-      name: Nadab
-      gender: male
-      category: jew
-      type: priest
-    - id: 187
-      fid: 183
-      mid: 185
-      name: Abihu
-      gender: male
-      category: jew
-      type: priest
-    - id: 188
-      fid: 183
-      mid: 185
-      name: Eleazar
-      gender: male
-      category: jew
-      type: priest
-    - id: 189
-      fid: 183
-      mid: 185
-      name: Ithamar
-      gender: male
-      category: jew
-      type: priest
-    - id: 190
-      pids:
-          - 184
-      name: Zipporah
-      gender: female
-      category: jew
-      type: person
-    - id: 191
-      fid: 184
-      mid: 190
-      name: Gershom
-      gender: male
-      category: jew
-      type: person
-    - id: 192
-      fid: 184
-      mid: 190
-      name: Eliezer
-      gender: male
-      category: jew
-      type: person
-    - id: 193
-      fid: 181
-      name: Korah
-      gender: male
-      category: jew
-      type: person
-    - id: 194
-      pids:
-          - 195
-          - 196
-      fid: 193
-      name: Elkanah
-      gender: male
-      category: jew
-      type: person
-    - id: 195
-      pids:
-          - 194
-      name: Hannah
-      gender: female
-      category: jew
-      type: person
-    - id: 196
-      pids:
-          - 194
-      name: Peninnah
-      gender: female
-      category: jew
-      type: person
-    - id: 197
-      fid: 194
-      mid: 195
-      name: Samuel
-      gender: male
-      category: jew
-      type: person
-    - id: 198
-      fid: 178
-      name: Ethan
-      alt_names: Jeduthun
-      gender: male
-      category: jew
-      type: person
-    - id: 199
-      fid: 197
-      name: Joel
-      gender: male
-      category: jew
-      type: person
-    - id: 200
-      fid: 197
-      name: Abijah
-      gender: male
-      category: jew
-      type: person
-    - id: 201
-      fid: 199
-      name: Heman
-      gender: male
-      category: jew
-      type: person
-    - id: 202
-      fid: 188
-      name: Phinehas
-      gender: male
-      category: jew
-      type: priest
-    - id: 203
-      fid: 189
-      name: Eli
-      gender: male
-      category: jew
-      type: priest
-    - id: 204
-      pids:
-          - 130
-      name: Tamar
-      gender: female
-      category: jew
-      type: person
-    - id: 205
-      fid: 130
-      mid: 204
-      name: Perez
-      gender: male
-      category: jew
-      type: person
-    - id: 206
-      fid: 130
-      mid: 204
-      name: Zerah
-      gender: male
-      category: jew
-      type: person
-    - id: 207
-      fid: 206
-      name: Achan
-      gender: male
-      category: jew
-      type: person
-    - id: 208
-      fid: 205
-      name: Hezron
-      gender: male
-      category: jew
-      type: person
-    - id: 209
-      fid: 37
-      name: Rahab
-      gender: female
-      category: gentile
-      type: person
-      notes:
-          - Hides the spies that Joshua sends to Jericho, and they make an oath to spare her
-            household.
-    - id: 210
-      fid: 208
-      name: Ram
-      gender: male
-      category: jew
-      type: person
-    - id: 211
-      fid: 130
-      name: Hur
-      gender: male
-      category: jew
-      type: person
-    - id: 212
-      fid: 130
-      name: Jephunneh
-      gender: male
-      category: jew
-      type: person
-    - id: 213
-      fid: 212
-      name: Caleb
-      gender: male
-      category: jew
-      type: person
-    - id: 214
-      fid: 138
-      name: Baasha
-      gender: male
-      category: jew
-      type: person
-    - id: 215
-      fid: 214
-      name: Elah
-      gender: male
-      category: jew
-      type: person
-    - id: 216
-      fid: 121
-      mid: 125
-      name: Dinah
-      gender: female
-      category: jew
-      type: person
-    - id: 217
-      fid: 143
-      name: Machir
-      gender: male
-      category: jew
-      type: person
-    - id: 218
-      fid: 217
-      name: Gilead
-      gender: male
-      category: jew
-      type: person
-    - id: 219
-      fid: 218
-      name: Hepher
-      gender: male
-      category: jew
-      type: person
-    - id: 220
-      fid: 219
-      name: Zelophehad
-      gender: male
-      category: jew
-      type: person
-    - id: 221
-      fid: 220
-      name: Mahlah
-      gender: female
-      category: jew
-      type: person
-    - id: 222
-      fid: 220
-      name: Noah
-      gender: female
-      category: jew
-      type: person
-    - id: 223
-      fid: 220
-      name: Hoglah
-      gender: female
-      category: jew
-      type: person
-    - id: 224
-      fid: 220
-      name: Milcah
-      gender: female
-      category: jew
-      type: person
-    - id: 225
-      fid: 220
-      name: Tirzah
-      gender: female
-      category: jew
-      type: person
-    - id: 225
-      fid: 220
-      name: Tirzah
-      gender: female
-      category: jew
-      type: person
-    - id: 233
-      fid: 144
-      name: Nun
-      gender: male
-      category: jew
-      type: person
-    - id: 234
-      fid: 233
-      name: Joshua
-      gender: male
-      category: jew
-      type: prophet
-    - id: 235
-      fid: 142
-      name: Gera
-      gender: male
-      category: jew
-      type: person
-    - id: 236
-      pids:
-          - 237
-      fid: 142
-      name: Abiel
-      alt_names:
-          - Jeiel
-          - Ner
-      gender: male
-      category: jew
-      type: person
-    - id: 237
-      pids:
-          - 236
-      name: Maacah
-      gender: female
-      category: jew
-      type: person
-    - id: 238
-      fid: 236
-      mid: 237
-      name: Kish
-      gender: male
-      category: jew
-      type: person
-    - id: 239
-      fid: 236
-      mid: 237
-      name: Ner
-      gender: male
-      category: jew
-      type: person
-    - id: 240
-      fid: 239
-      name: Abner
-      gender: male
-      category: jew
-      type: person
-    - id: 241
-      pids:
-          - 242
-      fid: 238
-      name: Saul
-      gender: male
-      category: jew
-      type: person
-    - id: 242
-      pids:
-          - 241
-      name: Ahinoam
-      gender: female
-      category: jew
-      type: person
-    - id: 243
-      fid: 241
-      mid: 242
-      name: Jonathan
-      gender: male
-      category: jew
-      type: person
-    - id: 244
-      fid: 52
-      name: Avvim
-      gender: male
-      category: gentile
-      type: nation
-    - id: 245
-      fid: 52
-      name: Gaza
-      gender: male
-      category: gentile
-      type: nation
-    - id: 246
-      fid: 52
-      name: Ashdod
-      gender: male
-      category: gentile
-      type: nation
-    - id: 247
-      fid: 52
-      name: Ashkelon
-      gender: male
-      category: gentile
-      type: nation
-    - id: 248
-      fid: 52
-      name: Gath
-      gender: male
-      category: gentile
-      type: nation
-    - id: 249
-      fid: 52
-      name: Ekron
-      gender: male
-      category: gentile
-      type: nation
-    - id: 250
-      fid: 85
-      mid: 122
-      name: Buz
-      gender: male
-      category: jew
-      type: person
-    - id: 251
-      fid: 85
-      mid: 122
-      name: Bethuel
-      gender: male
-      category: jew
-      type: person
-    - id: 252
-      fid: 154
-      name: Uz
-      gender: male
-      category: gentile
-      type: person
-    - id: 253
-      fid: 37
-      name: Jabin
-      gender: male
-      category: gentile
-      type: king
-      notes:
-          - Cannanite king of Hazor (a major Canaanite city which fell within the territory
-            that later became Naphtali).
-          - Gathers the kings of northern Canaan against Israel. The Lord delivers them into
-            Israel's hands under Joshua. They capture Hazor, and ultimately all of northern
-            Canaan.
+          - During his time, people begin to call upon the name of the Lord (cf. Gen. 4:26).
+          - His descendants are called the "sons of God", and they begin to intermarry with
+            the "daughters of man" (the ungodly) merely because they are attractive (cf. Gen. 6:2).
+    # - id: 7
+    #   fid: 3
+    #   name: Lamech
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    #   notes:
+    #       - Says, "If Cain's revenge is sevenfold, then Lamech's is seventy-sevenfold." (Gen. 4:24).
+    # - id: 8
+    #   fid: 5
+    #   name: Enosh
+    #   gender: male
+    #   type: person
+    # - id: 9
+    #   fid: 8
+    #   name: Kenan
+    #   gender: male
+    #   type: person
+    # - id: 10
+    #   fid: 9
+    #   name: Mahalalel
+    #   gender: male
+    #   type: person
+    # - id: 11
+    #   fid: 10
+    #   name: Jared
+    #   gender: male
+    #   type: person
+    # - id: 12
+    #   fid: 11
+    #   name: Enoch
+    #   gender: male
+    #   type: person
+    #   notes:
+    #       - Walked with God, and was taken up so that he should not see death (cf. Gen. 5:24; Heb. 11:5).
+    # - id: 13
+    #   fid: 12
+    #   name: Methuselah
+    #   gender: male
+    #   type: person
+    # - id: 14
+    #   fid: 13
+    #   name: Lamech
+    #   gender: male
+    #   type: person
+    # - id: 15
+    #   fid: 14
+    #   name: Noah
+    #   gender: male
+    #   type: person
+    # - id: 16
+    #   fid: 15
+    #   name: Shem
+    #   gender: male
+    #   type: person
+    # - id: 17
+    #   fid: 15
+    #   name: Ham
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 19
+    #   fid: 15
+    #   name: Japheth
+    #   gender: male
+    #   type: person
+    # - id: 20
+    #   fid: 19
+    #   name: Gomer
+    #   gender: male
+    #   type: person
+    # - id: 21
+    #   fid: 19
+    #   name: Magog
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - His name in Hebrew (מָגוֹג) means "place of the roof".
+    # - id: 23
+    #   fid: 19
+    #   name: Javan
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 24
+    #   fid: 19
+    #   name: Tubal
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 25
+    #   fid: 19
+    #   name: Meshech
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 27
+    #   fid: 20
+    #   name: Ashkenaz
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 29
+    #   fid: 20
+    #   name: Togarmah
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 30
+    #   fid: 23
+    #   name: Elishah
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 31
+    #   fid: 23
+    #   name: Tarshish
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 32
+    #   fid: 23
+    #   name: Kittim
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 34
+    #   fid: 17
+    #   name: Cush
+    #   alt_names:
+    #       - Ethiopia
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 35
+    #   fid: 17
+    #   name: Egypt
+    #   alt_names:
+    #       - Pharaoh
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 36
+    #   fid: 17
+    #   name: Put
+    #   alt_names:
+    #       - Libya
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 37
+    #   fid: 17
+    #   name: Canaan
+    #   alt_names:
+    #       - Canaanites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - After Rahab hides the spies, Joshua defeats the Canaanites at Jericho after they
+    #         march around the city for 7 days with 7 priests blowing 7 trumpets before the
+    #         ark. On the 7th day they circle 7 times and shout, and the wall comes down. Joshua
+    #         curses anyone who rebuilds Jericho.
+    #       - Jabin, Cannanite king of Hazor (a major Canaanite city which fell within the territory
+    #         that later became Naphtali), gathers the kings of northern Canaan against Israel.
+    #         The Lord delivers them into Israel’s hands under Joshua. They capture Hazor, and
+    #         ultimately all of northern Canaan.
+    #       - Adoni-zedek, Jebusite king of Jerusalem, gathers four Amorite kings against the
+    #         Gibeonites, who allied with Israel under Joshua. The Lord delivers them into Israel's
+    #         hands, makes the sun stand still, and throws down large hailstones from heaven
+    #         on them to defeat them. Joshua has the five kings executed, and the Lord delivers
+    #         southern Canaan into Israel's hands.
+    # - id: 38
+    #   fid: 17
+    #   name: Amalek
+    #   alt_names:
+    #       - Amalekites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - During the Exodus, Israel under Moses defeats Amalek at Rephidim (the wilderness
+    #         of Sin and the wilderness of Sinai) when Joshua leads them in battle, and Aaron
+    #         and Hur lift up Moses' hands.
+    # - id: 39
+    #   fid: 16
+    #   name: Elam
+    #   alt_names:
+    #       - Elamites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 45
+    #   fid: 1
+    #   mid: 2
+    #   name: Nephilim
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - They are called "mighty men" and "men of renown" (cf. Gen. 6:4).
+    #       - Their name in Hebrew (נְפִילִים, *nefilim*) means "fallen ones".
+    #       - The Septuagint renders their name as "giants" (γίγαντες, *ɡígantes*),
+    #         likely because of their tall stature.
+    # - id: 51
+    #   fid: 35
+    #   name: Caphtor
+    #   alt_names:
+    #       - Caphtorim
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Defeat the Avvim and settle in and around Gaza
+    #       - The Philistines descend from them
+    # - id: 52
+    #   fid: 51
+    #   name: Philistia
+    #   alt_names:
+    #       - Philistines
+    #       - Abimelech
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Their five major cities (pentapolis) are Gaza, Ashdod, Ashkelon, Gath, and Ekron.
+    #       - 'The generic name given to their kings is Abimelech (Hebrew: "My Father is King").'
+    # - id: 58
+    #   fid: 21
+    #   name: Gog
+    #   gender: male
+    #   category: gentile
+    #   type: king
+    #   notes:
+    #       - His name in Hebrew (גּוֹג) means "roof".
+    #       - A future king of Magog who is prophesied to come and war with the people of God.
+    # - id: 59
+    #   fid: 37
+    #   name: Lebanon
+    #   alt_names:
+    #       - Phoenicia
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 60
+    #   fid: 59
+    #   name: Sidon
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Settle in Lebanon, north of Tyre.
+    # - id: 61
+    #   fid: 59
+    #   name: Tyre
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Settle in Lebanon, south of Sidon.
+    # - id: 62
+    #   fid: 37
+    #   name: Heth
+    #   alt_names:
+    #       - Hittites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - After Sarah dies in Hebron (20 miles south of Jerusalem), Abraham buys Machpelah
+    #         for 400 shekels from them (specifically Ephron the Hittite) as a burial ground.
+    #         Sarah, Abraham, Isaac, Rebekah, Jacob, and Leah are buried there.
+    # - id: 63
+    #   fid: 37
+    #   name: Jebusites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - 'Settle in or near Mount Moriah, Mount Zion to the west, and the Mount of Olives
+    #         to the east in Jerusalem (Hebrew: “foundation of peace” or “awe of completeness”,
+    #         also called Salem).'
+    #       - Adoni-zedek, Jebusite king of Jerusalem, gathers four Amorite kings against the
+    #         Gibeonites, who allied with Israel under Joshua. The Lord delivers them into Israel's
+    #         hands, makes the sun stand still, and throws down large hailstones from heaven
+    #         on them to defeat them. Joshua has the five kings executed, and the Lord delivers
+    #         southern Canaan into Israel's hands.
+    # - id: 64
+    #   fid: 37
+    #   name: Amorites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Sihon was the king of the Amorites in Heshbon (which was in the land that became
+    #         Gilead, named after a descendant of Manasseh) until Israel defeated him under
+    #         Moses.
+    #       - After Achan is killed for stealing from things devoted to the Lord, Joshua defeats
+    #         the Amorites at Ai (east of Bethel, where Abraham and Jacob had built altars)
+    #         in an ambush, takes the city, and hangs their king.
+    # - id: 65
+    #   fid: 37
+    #   name: Girgashites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Not much is known about them. Jewish tradition holds that they fled Canaan during
+    #         Israel's conquest under Joshua.
+    # - id: 66
+    #   fid: 37
+    #   name: Hivites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Settled in or near Mount Hermon (northern boundary of the land of the Amorites
+    #         east of the Jordan)
+    #       - Shechem the Hivite defiles Dinah, and Simeon and Levi go to avenge their sister.
+    # - id: 67
+    #   fid: 37
+    #   name: Perizzites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - 'Hebrew: "villagers".'
+    #       - They dwell in Canaan.
+    # - id: 68
+    #   fid: 37
+    #   name: Rephaim
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - 'Hebrew: "faded ones".'
+    #       - Giants who dwell in Canaan.
+    #       - Og was said to be the last of the Rephaim, and was the king of Bashan in the city
+    #         of Ashtaroth (named after the pagan goddess Asherah who was often worshiped along
+    #         with Baal, her idols were wooden poles) in the land of the Amorites until Israel
+    #         defeated him under Moses.
+    # - id: 69
+    #   fid: 63
+    #   name: Adoni-zedek
+    #   gender: male
+    #   category: gentile
+    #   type: king
+    #   notes:
+    #       - Jebusite king of Jerusalem in the time of Joshua
+    #       - Gathers four Amorite kings against the Gibeonites, who allied with Israel under
+    #         Joshua. The Lord delivers them into Israel's hands, makes the sun stand still,
+    #         and throws down large hailstones from heaven on them to defeat them. Joshua has
+    #         the five kings executed, and the Lord delivers southern Canaan into Israel's hands.
+    # - id: 70
+    #   fid: 64
+    #   name: Mamre
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 71
+    #   fid: 64
+    #   name: Sihon
+    #   gender: male
+    #   category: gentile
+    #   type: king
+    #   notes:
+    #       - King of the Amorites in Heshbon (which was in the land that became Gilead, named
+    #         after a descendant of Manasseh) until Israel defeated him under Moses.
+    # - id: 72
+    #   fid: 66
+    #   name: Gibeon
+    #   alt_names:
+    #       - Gibeonites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Settle in Gibeon, northwest of Jerusalem.
+    #       - They are a "great city", "greater than Ai", whose men are warriors.
+    #       - They fear Israel, so they deceive Joshua into making a covenant with them.
+    # - id: 73
+    #   fid: 68
+    #   name: Zamzummim
+    #   alt_names:
+    #       - Zuzim
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - 'Hebrew: "schemers".'
+    #       - Dwell in what came to be called Ammon.
+    # - id: 74
+    #   fid: 68
+    #   name: Emim
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - 'Hebrew: "the dreaded ones".'
+    #       - Dwell in what came to be called Moab.
+    # - id: 75
+    #   fid: 68
+    #   name: Anak
+    #   alt_names:
+    #       - Anakim
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - 'Hebrew: "long-necked".'
+    #       - Dwell in what came to be called Hebron (20 miles south of Jerusalem).
+    #       - Joshua cuts off all the Anakim in Canaan. They only remain in Gaza and Ashdod
+    #         (land of the Philistines).
+    # - id: 76
+    #   fid: 68
+    #   name: Og
+    #   gender: male
+    #   category: gentile
+    #   type: king
+    #   notes:
+    #       - Was said to be the last of the Rephaim, and was the king of Bashan in the city
+    #         of Ashtaroth (named after the pagan goddess Asherah who was often worshiped along
+    #         with Baal, her idols were wooden poles) in the land of the Amorites until Israel
+    #         defeated him under Moses.
+    # - id: 77
+    #   fid: 104
+    #   name: Shelah
+    #   gender: male
+    #   type: person
+    # - id: 78
+    #   fid: 77
+    #   name: Eber
+    #   alt_names:
+    #       - Hebrews
+    #   gender: male
+    #   type: person
+    #   notes:
+    #       - The word "Hebrew" is derived from his name.
+    # - id: 79
+    #   fid: 78
+    #   name: Peleg
+    #   gender: male
+    #   type: person
+    #   notes:
+    #       - His name means "division" in Hebrew as it is said that in his day the earth was
+    #         divided. This may be a reference to when God scattered all peoples from Babel.
+    # - id: 80
+    #   fid: 79
+    #   name: Reu
+    #   gender: male
+    #   type: person
+    # - id: 81
+    #   fid: 80
+    #   name: Serug
+    #   gender: male
+    #   type: person
+    # - id: 82
+    #   fid: 81
+    #   name: Nahor
+    #   gender: male
+    #   type: person
+    # - id: 83
+    #   fid: 82
+    #   name: Terah
+    #   gender: male
+    #   type: person
+    # - id: 84
+    #   pids:
+    #       - 90
+    #       - 91
+    #       - 94
+    #   fid: 83
+    #   name: Abraham
+    #   alt_names:
+    #       - Abram
+    #   gender: male
+    #   type: patriarch
+    #   notes:
+    #       - God makes a covenant with him and he leaves Babylon (Ur of the Chaldeans) toward
+    #         the land of Canaan, and first settles in Paddan-aram (Haran), from which the Arameans
+    #         derive their name (modern Syria).
+    # - id: 85
+    #   pids:
+    #       - 122
+    #   fid: 83
+    #   name: Nahor
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 86
+    #   fid: 83
+    #   name: Haran
+    #   gender: male
+    #   type: person
+    # - id: 87
+    #   fid: 86
+    #   name: Lot
+    #   gender: male
+    #   type: person
+    # - id: 88
+    #   fid: 87
+    #   name: Moab
+    #   alt_names:
+    #       - Moabites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - 'Hebrew: "from father".'
+    #       - Lot fathers him by his firstborn daughter (for his daughters deceive him) after
+    #         God destroys Sodom and Gomorrah.
+    # - id: 89
+    #   fid: 87
+    #   name: Ben-ammi
+    #   alt_names:
+    #       - Ammon
+    #       - Ammonites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - 'Hebrew: "son of my people".'
+    #       - Lot fathers him by his younger daughter (for his daughters deceive him) after
+    #         God destroys Sodom and Gomorrah.
+    # - id: 90
+    #   pids:
+    #       - 84
+    #   name: Sarah
+    #   alt_names:
+    #       - Sarai
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 91
+    #   pids:
+    #       - 84
+    #   name: Hagar
+    #   alt_names:
+    #       - Hagrites
+    #   gender: female
+    #   type: person
+    #   notes:
+    #       - Sarah's Egyptian servant.
+    #       - Mother of Ishmael, Abraham's first son by her.
+    #       - Sarah deals harshly with her, but God protects her and Ishmael.
+    # - id: 92
+    #   fid: 84
+    #   mid: 91
+    #   name: Ishmael
+    #   alt_names:
+    #       - Ishmaelites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Abraham's first son by Hagar, Sarah's Egyptian servant.
+    # - id: 93
+    #   pids:
+    #       - 119
+    #   fid: 84
+    #   mid: 90
+    #   name: Isaac
+    #   gender: male
+    #   type: patriarch
+    #   notes:
+    #       - Abraham’s son by Sarah as promised by God.
+    #       - Marries Rebekah the Aramean (daughter of Laban, son of Nahor).
+    # - id: 94
+    #   pids:
+    #       - 84
+    #   name: Keturah
+    #   gender: female
+    #   type: person
+    # - id: 98
+    #   fid: 84
+    #   mid: 94
+    #   name: Midian
+    #   alt_names:
+    #       - Midianites
+    #       - Kenites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - The Midianites become allies with the Moabites and hire Balaam to curse Israel,
+    #         but God makes him bless Israel, and he prophesies the coming of the Messiah. Balaam
+    #         returns to Midian where he and the Midianites scheme to make Israel go after Baal
+    #         at Peor in Moab. The Midianites and Balaam are defeated by Israel under Moses.
+    # - id: 101
+    #   fid: 98
+    #   name: Jethro
+    #   alt_names:
+    #       - Reuel
+    #       - Hobab
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 102
+    #   fid: 101
+    #   name: Hobab
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 103
+    #   fid: 16
+    #   name: Asshur
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    #   notes:
+    #       - Builds Nineveh, a major city in Assyria.
+    # - id: 104
+    #   fid: 16
+    #   name: Arpachshad
+    #   gender: male
+    #   type: person
+    # - id: 105
+    #   fid: 16
+    #   name: Lud
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 106
+    #   fid: 16
+    #   name: Aram
+    #   alt_names:
+    #       - Arameans
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 107
+    #   fid: 92
+    #   name: Nebaioth
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 108
+    #   fid: 92
+    #   name: Kedar
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 112
+    #   fid: 92
+    #   name: Dumah
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 115
+    #   fid: 92
+    #   name: Tema
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 119
+    #   pids:
+    #       - 93
+    #   name: Rebekah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    #   notes:
+    #       - Daughter of Laban the Aramean, son of Nahor.
+    # - id: 120
+    #   fid: 93
+    #   mid: 119
+    #   name: Esau
+    #   alt_names:
+    #       - Edom
+    #       - Edomites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Isaac's firstborn son, Jacob's twin brother
+    #       - Name means "well-made" in Hebrew
+    #       - Takes for himself Canaanite and Ishmaelite wives
+    #       - 'Becomes the nation of Edom (Hebrew: "red", reference to Esau''s appearance at
+    #         birth).'
+    #       - Edom defeats the Horites in Seir and settle in their land.
+    # - id: 121
+    #   pids:
+    #       - 125
+    #       - 126
+    #       - 133
+    #       - 134
+    #   fid: 93
+    #   mid: 119
+    #   name: Jacob
+    #   alt_names:
+    #       - Israel
+    #   gender: male
+    #   type: patriarch
+    #   notes:
+    #       - Isaac's younger son, Esau's twin brother.
+    #       - Name means "deceiver" in Hebrew.
+    #       - Rebekah sends him to her brother Laban the Aramean and he marries Laban's daughters
+    #         Leah and Rachel.
+    #       - His name is changed to Israel which means "strives with God".
+    #       - Fathers the 12 tribes of Israel.
+    # - id: 122
+    #   pids:
+    #       - 85
+    #   name: Milcah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 123
+    #   fid: 85
+    #   mid: 122
+    #   name: Uz
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 124
+    #   fid: 251
+    #   name: Laban
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 125
+    #   pids:
+    #       - 121
+    #   name: Leah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 126
+    #   pids:
+    #       - 121
+    #   name: Rachel
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 127
+    #   fid: 121
+    #   mid: 125
+    #   name: Reuben
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 128
+    #   fid: 121
+    #   mid: 125
+    #   name: Simeon
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 129
+    #   fid: 121
+    #   mid: 125
+    #   name: Levi
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 130
+    #   pids:
+    #       - 204
+    #   fid: 121
+    #   mid: 125
+    #   name: Judah
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 131
+    #   fid: 121
+    #   mid: 133
+    #   name: Dan
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 132
+    #   fid: 121
+    #   mid: 133
+    #   name: Naphtali
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 133
+    #   pids:
+    #       - 121
+    #   name: Bilhah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 134
+    #   pids:
+    #       - 121
+    #   name: Zilpah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 135
+    #   fid: 121
+    #   mid: 134
+    #   name: Gad
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 137
+    #   fid: 121
+    #   mid: 134
+    #   name: Asher
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 138
+    #   fid: 121
+    #   mid: 125
+    #   name: Issachar
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 140
+    #   fid: 121
+    #   mid: 125
+    #   name: Zebulun
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 141
+    #   pids:
+    #       - 145
+    #   fid: 121
+    #   mid: 126
+    #   name: Joseph
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 142
+    #   fid: 121
+    #   mid: 126
+    #   name: Benjamin
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 143
+    #   fid: 141
+    #   mid: 145
+    #   name: Manasseh
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 144
+    #   fid: 141
+    #   mid: 145
+    #   name: Ephraim
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 145
+    #   pids:
+    #       - 141
+    #   name: Asenath
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 146
+    #   fid: 39
+    #   name: Chedorlaomer
+    #   gender: male
+    #   category: gentile
+    #   type: king
+    #   notes:
+    #       - King of Elam (later becomes Persia).
+    #       - Amraphel, king of Shinar (Babylon) gathers him and two other kings to fight against
+    #         the five kings of the region of Sodom and Gomorrah. Lot gets captured, and Abraham
+    #         rescues him with just 318 men.
+    # - id: 147
+    #   fid: 39
+    #   name: Persia
+    #   alt_names:
+    #       - Susa
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 149
+    #   fid: 147
+    #   name: Media
+    #   alt_names:
+    #       - Medes
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 151
+    #   fid: 103
+    #   name: Assyria
+    #   alt_names:
+    #       - Nineveh
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Nineveh was a major city in Assyria.
+    # - id: 153
+    #   fid: 120
+    #   name: Horites
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Edom defeats the Horites and settle in their land.
+    # - id: 154
+    #   fid: 153
+    #   name: Seir
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Known as Seir the Horite.
+    #       - Edom defeats the Horites and settle in their land.
+    # - id: 155
+    #   fid: 106
+    #   name: Syria
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 158
+    #   fid: 127
+    #   name: Pallu
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 161
+    #   fid: 34
+    #   name: Seba
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 162
+    #   fid: 34
+    #   name: Raamah
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 163
+    #   fid: 162
+    #   name: Sheba
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 164
+    #   fid: 162
+    #   name: Dedan
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 166
+    #   fid: 34
+    #   name: Nimrod
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    #   notes:
+    #       - Builds Babel (Babylon).
+    # - id: 167
+    #   fid: 166
+    #   name: Babylon
+    #   alt_names:
+    #       - Babel
+    #       - Shinar
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 168
+    #   fid: 167
+    #   name: Amraphel
+    #   gender: male
+    #   category: gentile
+    #   type: king
+    #   notes:
+    #       - King of Shinar (Babylon).
+    #       - Gathers three other kings including Chedorlaomer to fight against the five kings
+    #         of the region of Sodom and Gomorrah. Lot gets captured, and Abraham rescues him
+    #         with just 318 men.
+    # - id: 169
+    #   fid: 167
+    #   name: Chaldea
+    #   alt_names:
+    #       - Chaldeans
+    #       - Ur
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    #   notes:
+    #       - Absorbed and assimilated into Babylon.
+    #       - Ur (the birthplace of Abraham), was a major city in which they settled.
+    # - id: 170
+    #   fid: 120
+    #   name: Teman
+    #   alt_names:
+    #       - Temanites
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 172
+    #   fid: 158
+    #   name: Eliab
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 174
+    #   fid: 172
+    #   name: Dathan
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 175
+    #   fid: 172
+    #   name: Abiram
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 176
+    #   fid: 129
+    #   name: Gerhson
+    #   alt_names:
+    #       - Gershom
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 177
+    #   fid: 129
+    #   name: Kohath
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 178
+    #   fid: 129
+    #   name: Merari
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 179
+    #   fid: 176
+    #   name: Asaph
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 180
+    #   pids:
+    #       - 182
+    #   fid: 177
+    #   name: Amram
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 181
+    #   fid: 177
+    #   name: Izhar
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 182
+    #   pids:
+    #       - 180
+    #   name: Jochebed
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 183
+    #   pids:
+    #       - 185
+    #   fid: 180
+    #   mid: 182
+    #   name: Aaron
+    #   gender: male
+    #   category: jew
+    #   type: priest
+    # - id: 184
+    #   pids:
+    #       - 190
+    #   fid: 180
+    #   mid: 182
+    #   name: Moses
+    #   gender: male
+    #   category: jew
+    #   type: prophet
+    # - id: 185
+    #   pids:
+    #       - 183
+    #   name: Elisheba
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 186
+    #   fid: 183
+    #   mid: 185
+    #   name: Nadab
+    #   gender: male
+    #   category: jew
+    #   type: priest
+    # - id: 187
+    #   fid: 183
+    #   mid: 185
+    #   name: Abihu
+    #   gender: male
+    #   category: jew
+    #   type: priest
+    # - id: 188
+    #   fid: 183
+    #   mid: 185
+    #   name: Eleazar
+    #   gender: male
+    #   category: jew
+    #   type: priest
+    # - id: 189
+    #   fid: 183
+    #   mid: 185
+    #   name: Ithamar
+    #   gender: male
+    #   category: jew
+    #   type: priest
+    # - id: 190
+    #   pids:
+    #       - 184
+    #   name: Zipporah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 191
+    #   fid: 184
+    #   mid: 190
+    #   name: Gershom
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 192
+    #   fid: 184
+    #   mid: 190
+    #   name: Eliezer
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 193
+    #   fid: 181
+    #   name: Korah
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 194
+    #   pids:
+    #       - 195
+    #       - 196
+    #   fid: 193
+    #   name: Elkanah
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 195
+    #   pids:
+    #       - 194
+    #   name: Hannah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 196
+    #   pids:
+    #       - 194
+    #   name: Peninnah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 197
+    #   fid: 194
+    #   mid: 195
+    #   name: Samuel
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 198
+    #   fid: 178
+    #   name: Ethan
+    #   alt_names: Jeduthun
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 199
+    #   fid: 197
+    #   name: Joel
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 200
+    #   fid: 197
+    #   name: Abijah
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 201
+    #   fid: 199
+    #   name: Heman
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 202
+    #   fid: 188
+    #   name: Phinehas
+    #   gender: male
+    #   category: jew
+    #   type: priest
+    # - id: 203
+    #   fid: 189
+    #   name: Eli
+    #   gender: male
+    #   category: jew
+    #   type: priest
+    # - id: 204
+    #   pids:
+    #       - 130
+    #   name: Tamar
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 205
+    #   fid: 130
+    #   mid: 204
+    #   name: Perez
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 206
+    #   fid: 130
+    #   mid: 204
+    #   name: Zerah
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 207
+    #   fid: 206
+    #   name: Achan
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 208
+    #   fid: 205
+    #   name: Hezron
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 209
+    #   fid: 37
+    #   name: Rahab
+    #   gender: female
+    #   category: gentile
+    #   type: person
+    #   notes:
+    #       - Hides the spies that Joshua sends to Jericho, and they make an oath to spare her
+    #         household.
+    # - id: 210
+    #   fid: 208
+    #   name: Ram
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 211
+    #   fid: 130
+    #   name: Hur
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 212
+    #   fid: 130
+    #   name: Jephunneh
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 213
+    #   fid: 212
+    #   name: Caleb
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 214
+    #   fid: 138
+    #   name: Baasha
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 215
+    #   fid: 214
+    #   name: Elah
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 216
+    #   fid: 121
+    #   mid: 125
+    #   name: Dinah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 217
+    #   fid: 143
+    #   name: Machir
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 218
+    #   fid: 217
+    #   name: Gilead
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 219
+    #   fid: 218
+    #   name: Hepher
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 220
+    #   fid: 219
+    #   name: Zelophehad
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 221
+    #   fid: 220
+    #   name: Mahlah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 222
+    #   fid: 220
+    #   name: Noah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 223
+    #   fid: 220
+    #   name: Hoglah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 224
+    #   fid: 220
+    #   name: Milcah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 225
+    #   fid: 220
+    #   name: Tirzah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 225
+    #   fid: 220
+    #   name: Tirzah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 233
+    #   fid: 144
+    #   name: Nun
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 234
+    #   fid: 233
+    #   name: Joshua
+    #   gender: male
+    #   category: jew
+    #   type: prophet
+    # - id: 235
+    #   fid: 142
+    #   name: Gera
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 236
+    #   pids:
+    #       - 237
+    #   fid: 142
+    #   name: Abiel
+    #   alt_names:
+    #       - Jeiel
+    #       - Ner
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 237
+    #   pids:
+    #       - 236
+    #   name: Maacah
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 238
+    #   fid: 236
+    #   mid: 237
+    #   name: Kish
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 239
+    #   fid: 236
+    #   mid: 237
+    #   name: Ner
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 240
+    #   fid: 239
+    #   name: Abner
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 241
+    #   pids:
+    #       - 242
+    #   fid: 238
+    #   name: Saul
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 242
+    #   pids:
+    #       - 241
+    #   name: Ahinoam
+    #   gender: female
+    #   category: jew
+    #   type: person
+    # - id: 243
+    #   fid: 241
+    #   mid: 242
+    #   name: Jonathan
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 244
+    #   fid: 52
+    #   name: Avvim
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 245
+    #   fid: 52
+    #   name: Gaza
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 246
+    #   fid: 52
+    #   name: Ashdod
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 247
+    #   fid: 52
+    #   name: Ashkelon
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 248
+    #   fid: 52
+    #   name: Gath
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 249
+    #   fid: 52
+    #   name: Ekron
+    #   gender: male
+    #   category: gentile
+    #   type: nation
+    # - id: 250
+    #   fid: 85
+    #   mid: 122
+    #   name: Buz
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 251
+    #   fid: 85
+    #   mid: 122
+    #   name: Bethuel
+    #   gender: male
+    #   category: jew
+    #   type: person
+    # - id: 252
+    #   fid: 154
+    #   name: Uz
+    #   gender: male
+    #   category: gentile
+    #   type: person
+    # - id: 253
+    #   fid: 37
+    #   name: Jabin
+    #   gender: male
+    #   category: gentile
+    #   type: king
+    #   notes:
+    #       - Cannanite king of Hazor (a major Canaanite city which fell within the territory
+    #         that later became Naphtali).
+    #       - Gathers the kings of northern Canaan against Israel. The Lord delivers them into
+    #         Israel's hands under Joshua. They capture Hazor, and ultimately all of northern
+    #         Canaan.

@@ -9,5 +9,5 @@ export interface FamilyNode {
     category?: 'jew' | 'gentile';
     type?: 'person' | 'patriarch' | 'prophet' | 'priest' | 'king' | 'nation';
     link?: string;
-    notes?: string;
+    notes?: string[];
 }
