@@ -20,6 +20,9 @@ declare module '@mui/material/styles' {
 const theme = createTheme({
     palette: {
         mode: 'light',
+        primary: {
+            main: '#e0e0e0',
+        },
         brand: {
             black: colors.black,
             white: colors.white,

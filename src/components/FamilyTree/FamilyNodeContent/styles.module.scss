@@ -10,6 +10,10 @@
     &[class~='female'] {
         background-color: var(--pink);
     }
+
+    &[class~='dimmed'] {
+        opacity: 0.2;
+    }
 }
 
 .name {
@@ -17,10 +21,12 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 0;
 }
 
 .alt_names {
     font-size: 13px;
+    margin: 0;
 }
 
 .icon {

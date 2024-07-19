@@ -11,4 +11,5 @@ export interface FamilyNode {
     _expanded?: boolean;
     _highlighted?: boolean;
     _upToTheRootHighlighted?: boolean;
+    _dimmed?: boolean;
 }

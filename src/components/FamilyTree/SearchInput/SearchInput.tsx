@@ -4,18 +4,28 @@ import {Autocomplete, TextField} from '@mui/material';
 
 interface Props {
     data: FamilyNode[];
+    value: FamilyNode | null;
     inputValue: string;
     onSearchChange: (node: FamilyNode) => void;
     onSearchInputChange: (value: string) => void;
     onClearSearchInput: () => void;
 }
 
-export const SearchInput: FC<Props> = ({data, inputValue, onSearchChange, onSearchInputChange, onClearSearchInput}) => {
+export const SearchInput: FC<Props> = ({
+    data,
+    value,
+    inputValue,
+    onSearchChange,
+    onSearchInputChange,
+    onClearSearchInput,
+}) => {
     return (
         <Autocomplete
             id="btr-search"
+            value={value}
             inputValue={inputValue}
             onInputChange={(_, v) => onSearchInputChange(v)}
+            getOptionLabel={(d) => `${d.id}: ${d.name}`}
             onChange={(_, v, reason) => {
                 if (v) {
                     const d: any = {...v};
