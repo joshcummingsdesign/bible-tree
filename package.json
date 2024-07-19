@@ -19,7 +19,6 @@
         "@mui/material-nextjs": "^5.16.4",
         "@uidotdev/usehooks": "^2.4.1",
         "d3-org-chart": "^3.1.1",
-        "downshift": "^9.0.6",
         "js-yaml": "^4.1.0",
         "marked": "^13.0.2",
         "next": "13.4.10",

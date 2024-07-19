@@ -17,14 +17,12 @@ export const FamilyTree: FC<Props> = ({data}) => {
     const d3Container = useRef<HTMLDivElement>(null);
     const chart = useRef<OrgChart<FamilyNode> | null>();
     const [searchValue, setSearchValue] = useState<string>('');
-    const [searchSelectedNode, setSearchSelectedNode] = useState<FamilyNode | null>(null);
     const [highlightedNode, setHighlightedNode] = useState<FamilyNode | null>(null);
 
     const handleExpandAll = () => {
         if (!chart.current) return;
 
         setSearchValue('');
-        setSearchSelectedNode(null);
         chart.current.expandAll().clearHighlighting();
 
         if (highlightedNode) {
@@ -38,7 +36,6 @@ export const FamilyTree: FC<Props> = ({data}) => {
         if (!chart.current) return;
 
         setSearchValue('');
-        setSearchSelectedNode(null);
         setHighlightedNode(null);
         chart.current.collapseAll().clearHighlighting().initialZoom(1).setCentered(1).render();
     };
@@ -63,18 +60,31 @@ export const FamilyTree: FC<Props> = ({data}) => {
         if (!chart.current) return;
 
         setSearchValue('');
-        setSearchSelectedNode(null);
         setHighlightedNode(null);
         chart.current.clearHighlighting();
     };
 
+    const handleFit = () => {
+        if (!chart.current) return;
+
+        chart.current.fit();
+    };
+
     const handleNodeClick = (e: MouseEvent) => {
-        if (!chart.current || !(e.target instanceof HTMLElement)) return;
+        if (!chart.current) return;
+
+        const target = e.target as HTMLElement;
+
+        // Handle click away
+        if (target.classList.contains('svg-chart-container')) {
+            setHighlightedNode(null);
+            chart.current.clearHighlighting();
+        }
 
         // Handle node icon click
-        if (e.target.classList.contains('btr-node-container')) {
+        if (target.classList.contains('btr-node-container')) {
             const data = chart.current.data() || [];
-            const id = Number(e.target.getAttribute('data-node-id'));
+            const id = Number(target.getAttribute('data-node-id'));
             const descendants = getDescendants(data, id);
 
             chart.current.clearHighlighting();
@@ -100,9 +110,9 @@ export const FamilyTree: FC<Props> = ({data}) => {
         }
 
         // Handle container click
-        if (e.target.classList.contains('btr-node-icon')) {
+        if (target.classList.contains('btr-node-icon')) {
             const data = chart.current.data() || [];
-            const id = Number(e.target.getAttribute('data-node-id'));
+            const id = Number(target.getAttribute('data-node-id'));
             chart.current.clearHighlighting().setUpToTheRootHighlighted(id).render();
             setHighlightedNode(data.find((d) => d.id === id) || null);
 
@@ -158,10 +168,10 @@ export const FamilyTree: FC<Props> = ({data}) => {
         <div className={styles.container}>
             <button onClick={handleExpandAll}>Expand All</button>
             <button onClick={handleCollapseAll}>Collapse All</button>
+            <button onClick={handleFit}>Fit to Window</button>
             <SearchInput
                 data={data}
                 inputValue={searchValue}
-                selectedItem={searchSelectedNode}
                 onSearchChange={handleSearchChange}
                 onSearchInputChange={handleSearchInputChange}
                 onClearSearchInput={handleClearSearchInput}
