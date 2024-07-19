@@ -1,0 +1,29 @@
+@use '../../../styles/colors' as *;
+
+.container {
+    position: relative;
+    background-color: $blue;
+    color: $white;
+    padding: 30px 60px 30px 30px;
+    align-items: center;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.name {
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.alt_names {
+    font-size: 13px;
+}
+
+.icon {
+    font-size: 18px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}

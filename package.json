@@ -11,6 +11,7 @@
         "test:ci": "jest --ci"
     },
     "dependencies": {
+        "d3-org-chart": "^3.1.1",
         "js-yaml": "^4.1.0",
         "marked": "^13.0.2",
         "next": "13.4.10",
@@ -21,6 +22,7 @@
         "@testing-library/jest-dom": "5.16.4",
         "@testing-library/react": "14.0.0",
         "@testing-library/user-event": "14.4.3",
+        "@types/d3-org-chart": "^3.1.2",
         "@types/js-yaml": "^4.0.9",
         "@types/node": "20.4.2",
         "@types/react": "18.2.15",

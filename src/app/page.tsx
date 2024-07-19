@@ -3,7 +3,7 @@ import {promises as fs} from 'fs';
 import * as yaml from 'js-yaml';
 import {marked} from 'marked';
 import {FamilyNode} from '@/lib/types';
-import {Tree} from '@/components/Tree';
+import {FamilyTree} from '@/components/FamilyTree';
 
 export default async function Page() {
     const file = await fs.readFile(process.cwd() + '/src/app/data.yaml', 'utf8');
@@ -20,7 +20,7 @@ export default async function Page() {
 
     return (
         <main>
-            <Tree nodes={nodes} />
+            <FamilyTree data={nodes} />
         </main>
     );
 }
