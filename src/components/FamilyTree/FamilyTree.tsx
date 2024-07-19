@@ -1,13 +1,12 @@
 'use client';
 
-import {FC, useLayoutEffect, useRef, useState} from 'react';
+import {FC, useCallback, useLayoutEffect, useRef, useState} from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {OrgChart} from 'd3-org-chart';
 import {FamilyNode} from '@/lib/types';
 import {FamilyNodeContent} from './FamilyNodeContent';
 import {SearchInput} from './SearchInput';
 import styles from './styles.module.scss';
-import {styled} from '@mui/material';
 
 interface Props {
     data: FamilyNode[];
@@ -70,55 +69,58 @@ export const FamilyTree: FC<Props> = ({data}) => {
         chart.current.fit();
     };
 
-    const handleNodeClick = (e: MouseEvent) => {
-        if (!chart.current) return;
+    const handleNodeClick = useCallback(
+        (e: MouseEvent) => {
+            if (!chart.current) return;
 
-        const target = e.target as HTMLElement;
+            const target = e.target as HTMLElement;
 
-        // Handle click away
-        if (target.classList.contains('svg-chart-container')) {
-            setHighlightedNode(null);
-            chart.current.clearHighlighting();
-        }
+            // Handle click away
+            if (target.classList.contains('svg-chart-container')) {
+                setHighlightedNode(null);
+                chart.current.clearHighlighting();
+            }
 
-        // Handle node icon click
-        if (target.classList.contains('btr-node-container')) {
-            const data = chart.current.data() || [];
-            const id = Number(target.getAttribute('data-node-id'));
-            const descendants = getDescendants(data, id);
+            // Handle node icon click
+            if (target.classList.contains('btr-node-container')) {
+                const data = chart.current.data() || [];
+                const id = Number(target.getAttribute('data-node-id'));
+                const descendants = getDescendants(data, id);
 
-            chart.current.clearHighlighting();
+                chart.current.clearHighlighting();
 
-            // Mark all previously expanded nodes for collapse
-            data.forEach((d) => (d._expanded = false));
+                // Mark all previously expanded nodes for collapse
+                data.forEach((d) => (d._expanded = false));
 
-            // Find the nodes and toggle the highlighting
-            descendants.forEach((d, index) => {
-                if (index === 0) {
-                    d._highlighted = true;
-                    setHighlightedNode(d);
-                } else {
-                    d._upToTheRootHighlighted = true;
-                }
-                d._expanded = true;
-            });
+                // Find the nodes and toggle the highlighting
+                descendants.forEach((d, index) => {
+                    if (index === 0) {
+                        d._highlighted = true;
+                        setHighlightedNode(d);
+                    } else {
+                        d._upToTheRootHighlighted = true;
+                    }
+                    d._expanded = true;
+                });
 
-            // Update data and rerender graph
-            chart.current.data(data).setCentered(id).render();
+                // Update data and rerender graph
+                chart.current.data(data).setCentered(id).render();
 
-            return;
-        }
+                return;
+            }
 
-        // Handle container click
-        if (target.classList.contains('btr-node-icon')) {
-            const data = chart.current.data() || [];
-            const id = Number(target.getAttribute('data-node-id'));
-            chart.current.clearHighlighting().setUpToTheRootHighlighted(id).render();
-            setHighlightedNode(data.find((d) => d.id === id) || null);
+            // Handle container click
+            if (target.classList.contains('btr-node-icon')) {
+                const data = chart.current.data() || [];
+                const id = Number(target.getAttribute('data-node-id'));
+                chart.current.clearHighlighting().setUpToTheRootHighlighted(id).render();
+                setHighlightedNode(data.find((d) => d.id === id) || null);
 
-            return;
-        }
-    };
+                return;
+            }
+        },
+        [chart]
+    );
 
     const getDescendants = (nodes: FamilyNode[], id: number) => {
         const descendants = nodes.filter((node) => node.id === id);
@@ -154,7 +156,7 @@ export const FamilyTree: FC<Props> = ({data}) => {
                 .expandAll()
                 .render();
         }
-    }, [data, chart, d3Container.current]);
+    }, [data, chart, d3Container]);
 
     useLayoutEffect(() => {
         document.addEventListener('click', handleNodeClick);

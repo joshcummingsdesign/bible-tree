@@ -6,14 +6,14 @@ import {combineClassNames as css} from '@/lib/utils/combineClassNames';
 import theme from '@/theme';
 import '@/assets/styles/global.scss';
 
-export const fontHeading = DM_Serif_Display({
+const fontHeading = DM_Serif_Display({
     variable: '--font-heading',
     weight: ['400'],
     style: ['normal'],
     subsets: ['latin'],
 });
 
-export const fontBody = Red_Hat_Display({
+const fontBody = Red_Hat_Display({
     variable: '--font-body',
     weight: ['400', '700'],
     style: ['normal', 'italic'],
