@@ -1,7 +1,7 @@
 'use client';
 
-import {useCallback, useEffect, useRef, useState} from 'react';
-import FamilyTree from '@balkangraph/familytree.js';
+import {useCallback, useEffect, useRef} from 'react';
+import FamilyTree from './familytree';
 import {FamilyNode} from '@/lib/types/FamilyNode';
 import styles from './styles.module.scss';
 
@@ -9,10 +9,9 @@ interface Props {
     nodes: FamilyNode[];
 }
 
-export default function Tree({nodes}: Props) {
+export const Tree = ({nodes}: Props) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const family = useRef<FamilyTree | null>(null);
-    const [searchState, setSearchState] = useState<boolean>(false);
 
     const getIconTemplate = useCallback(
         () => `
@@ -241,4 +240,4 @@ export default function Tree({nodes}: Props) {
     ]);
 
     return <div ref={containerRef} className={styles.container}></div>;
-}
+};
