@@ -3213,7 +3213,7 @@ var FamilyTree = function (e, t) {
         return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }),
     (FamilyTree.isTrial = function () {
-        return false;
+        return void 0 !== FamilyTree.remote;
     }),
     (FamilyTree.childrenCount = function (e, t) {
         for (var i = 0, r = 0; r < t.childrenIds.length; r++) {
@@ -11594,5 +11594,27 @@ var FamilyTree = function (e, t) {
         }
     }),
     (FamilyTree.remote._findRegion = function (e) {
-        return;
+        var t = FamilyTree.localStorage.getItem(FamilyTree.FUNC_URL_NAME);
+        if (t) e(t);
+        else {
+            for (
+                var i = ['defunc2', 'cusfunc2', 'bsfunc2', 'acfunc2', 'kcfunc2', 'safunc2', 'wifunc2'], r = [], a = 0;
+                a < i.length;
+                a++
+            )
+                r.push(new XMLHttpRequest());
+            for (a = 0; a < i.length; a++)
+                !(function () {
+                    var t = 'https://' + i[a] + FamilyTree.SERVER_PREFIX,
+                        n = r[a];
+                    (n.onreadystatechange = function () {
+                        if (4 == this.readyState && 200 == this.status) {
+                            FamilyTree.localStorage.setItem(FamilyTree.FUNC_URL_NAME, t), e(t);
+                            for (var i = 0; i < r.length; i++) r[i].abort();
+                        }
+                    }),
+                        n.open('GET', t, !0),
+                        n.send();
+                })();
+        }
     });
