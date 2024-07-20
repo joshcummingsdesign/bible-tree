@@ -18,7 +18,7 @@ nodes:
       type: person
       notes: |
           * It is likely that Adam and Eve had other descendants at the time of Abel's death.
-            Thus, Cain says *whoever* will find him will kill him
+            Thus, Cain says, "*Whoever* finds me will kill me."
             (cf. Gen. 4:14; Gen 4:25; Gen. 5:3).
     - id: 4
       parentId: 2
@@ -215,7 +215,7 @@ nodes:
             curses anyone who rebuilds Jericho.
           * Jabin, Cannanite king of Hazor (a major Canaanite city which fell within the territory
             that later became Naphtali), gathers the kings of northern Canaan against Israel.
-            The Lord delivers them into Israel’s hands under Joshua. They capture Hazor, and
+            The Lord delivers them into Israel's hands under Joshua. They capture Hazor, and
             ultimately all of northern Canaan.
           * Adoni-zedek, Jebusite king of Jerusalem, gathers four Amorite kings against the
             Gibeonites, who allied with Israel under Joshua. The Lord delivers them into Israel's
@@ -496,8 +496,9 @@ nodes:
       category: jew
       type: person
       notes: |
-          * His name means "division" in Hebrew as it is said that in his day the earth was
-            divided. This may be a reference to when God scattered all peoples from Babel.
+          * His name in Hebrew (פֶּלֶג) means "division", as it is said that in his day the earth was
+            divided. This may be a reference to when God scattered all peoples from Babel
+            (cf. Gen. 10:25; Gen. 11:9).
     - id: 80
       parentId: 79
       name: Reu
@@ -929,6 +930,12 @@ nodes:
           - Edom defeats the Horites and settle in their land.
     - id: 155
       parentId: 106
+      name: Uz
+      gender: male
+      category: gentile
+      type: person
+    - id: 156
+      parentId: 106
       name: Syria
       gender: male
       category: gentile
@@ -970,7 +977,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Builds Babel (Babylon).
+          * Builds Babel, Erech, Accad, and Calneh, in the land of Shinar (Babylon).
     - id: 167
       parentId: 166
       name: Babylon
