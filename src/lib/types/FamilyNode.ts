@@ -10,8 +10,7 @@ export interface FamilyNode {
     gender: (typeof nodeGender)[number];
     category: (typeof nodeCategory)[number];
     type: (typeof nodeType)[number];
-    link?: string;
-    notes?: string[];
+    notes?: string;
     _expanded?: boolean;
     _highlighted?: boolean;
     _upToTheRootHighlighted?: boolean;

@@ -1,3 +1,5 @@
+import {colors} from './colors';
+
 export const fonts = {
     fontHeading: 'var(--font-heading)',
     fontBody: 'var(--font-body)',
@@ -47,9 +49,18 @@ export const typography = {
     },
     body1: {
         fontSize: '1.0625rem',
-        fontWeight: fontWeights.bold,
+        fontWeight: fontWeights.regular,
         lineHeight: '1.6',
         fontFamily: fonts.fontBody,
+
+        a: {
+            color: colors.purple,
+            textDecoration: 'none',
+
+            '&:hover': {
+                textDecoration: 'underline',
+            },
+        },
     },
     body2: {
         fontSize: '0.8125rem',
@@ -58,7 +69,12 @@ export const typography = {
         fontFamily: fonts.fontBody,
 
         a: {
-            color: 'inherit',
+            color: colors.purple,
+            textDecoration: 'none',
+
+            '&:hover': {
+                textDecoration: 'underline',
+            },
         },
     },
 };

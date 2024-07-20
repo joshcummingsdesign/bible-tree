@@ -23,6 +23,9 @@ const theme = createTheme({
         primary: {
             main: '#e0e0e0',
         },
+        secondary: {
+            main: '#000000',
+        },
         brand: {
             black: colors.black,
             white: colors.white,
@@ -61,6 +64,15 @@ const theme = createTheme({
         },
     },
     components: {
+        MuiFormLabel: {
+            styleOverrides: {
+                root: {
+                    '&.Mui-focused': {
+                        color: colors.grey,
+                    },
+                },
+            },
+        },
         MuiAutocomplete: {
             styleOverrides: {
                 inputRoot: {

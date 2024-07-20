@@ -7,11 +7,18 @@ import {FamilyNode, nodeCategory, nodeGender, nodeType} from '@/lib/types';
 import {FamilyNodeContent} from './FamilyNodeContent';
 import {SearchInput as SearchInputBase} from './SearchInput';
 import {Button, ButtonGroup as ButtonGroupBase, Popover, styled} from '@mui/material';
-import {UnfoldLess, UnfoldMore, ZoomOutMap, RestartAlt, FilterAlt} from '@mui/icons-material';
+import {UnfoldLess, UnfoldMore, ZoomOutMap, HighlightOff, FilterAlt} from '@mui/icons-material';
 import {FilterToggles, FilterTogglesRef, FilterTogglesState} from './FilterToggles';
+import {NotesDrawer} from './NotesDrawer';
 
 interface Props {
     data: FamilyNode[];
+}
+
+declare global {
+    interface Window {
+        BGLinks: any;
+    }
 }
 
 export const FamilyTree: FC<Props> = ({data}) => {
@@ -25,6 +32,8 @@ export const FamilyTree: FC<Props> = ({data}) => {
     const [highlightedNode, setHighlightedNode] = useState<FamilyNode | null>(null);
     const [filtersAnchorEl, setFiltersAnchorEl] = useState<HTMLButtonElement | null>(null);
     const [filters, setFilters] = useState<string[]>([...nodeGender, ...nodeCategory, ...nodeType]);
+    const [selectedNode, setSelectedNode] = useState<FamilyNode | null>(null);
+    const [isDrawerOpen, setIsDrawerOpen] = useState<boolean>(false);
 
     const handleExpandAll = () => {
         if (!chart.current) return;
@@ -116,9 +125,26 @@ export const FamilyTree: FC<Props> = ({data}) => {
             if (target.classList.contains('svg-chart-container')) {
                 setHighlightedNode(null);
                 chart.current.clearHighlighting();
+
+                return;
             }
 
-            // Handle node icon click
+            // Handle heading click (open drawer)
+            if (target.classList.contains('btr-node-heading')) {
+                const data = chart.current.data() || [];
+                const id = Number(target.getAttribute('data-node-id'));
+                setSelectedNode(data.find((d) => d.id === id) || null);
+                setIsDrawerOpen(true);
+
+                setTimeout(() => {
+                    window.BGLinks.version = 'ESV';
+                    window.BGLinks.linkVerses();
+                }, 300);
+
+                return;
+            }
+
+            // Handle node icon click (highlight up)
             if (target.classList.contains('btr-node-container')) {
                 const data = chart.current.data() || [];
                 const id = Number(target.getAttribute('data-node-id'));
@@ -146,7 +172,7 @@ export const FamilyTree: FC<Props> = ({data}) => {
                 return;
             }
 
-            // Handle container click
+            // Handle container click (highlight down)
             if (target.classList.contains('btr-node-icon')) {
                 const data = chart.current.data() || [];
                 const id = Number(target.getAttribute('data-node-id'));
@@ -158,6 +184,15 @@ export const FamilyTree: FC<Props> = ({data}) => {
         },
         [chart]
     );
+
+    const handleDrawerClose = () => {
+        setIsDrawerOpen(false);
+        setTimeout(() => {
+            if (selectedNode) {
+                setSelectedNode(null);
+            }
+        }, 300);
+    };
 
     const handleFiltering = (value: FilterTogglesState) => {
         if (!chart.current) return;
@@ -262,19 +297,19 @@ export const FamilyTree: FC<Props> = ({data}) => {
         <div>
             <Header>
                 <ButtonGroup variant="contained" aria-label="Basic button group">
-                    <Button onClick={handleExpandAll}>
+                    <Button onClick={handleExpandAll} title="Expand All" aria-label="Expand All">
                         <UnfoldMore />
                     </Button>
-                    <Button onClick={handleCollapseAll}>
+                    <Button onClick={handleCollapseAll} title="Collapse All" aria-label="Collapse All">
                         <UnfoldLess />
                     </Button>
-                    <Button onClick={handleFit}>
+                    <Button onClick={handleFit} title="Fit to Viewport" aria-label="Fit to Viewport">
                         <ZoomOutMap />
                     </Button>
-                    <Button onClick={handleReset}>
-                        <RestartAlt />
+                    <Button onClick={handleReset} title="Reset" aria-label="Reset">
+                        <HighlightOff />
                     </Button>
-                    <Button onClick={handleShowFilters}>
+                    <Button onClick={handleShowFilters} title="Filter" aria-label="Filter">
                         <FilterAlt />
                     </Button>
                 </ButtonGroup>
@@ -314,6 +349,12 @@ export const FamilyTree: FC<Props> = ({data}) => {
                     onChange={handleFiltering}
                 />
             </FilterTogglesWindow>
+            <NotesDrawer
+                open={isDrawerOpen}
+                heading={selectedNode?.name || ''}
+                text={selectedNode?.notes || 'No notes.'}
+                onClose={handleDrawerClose}
+            />
             <Canvas ref={d3Container} />
         </div>
     );
