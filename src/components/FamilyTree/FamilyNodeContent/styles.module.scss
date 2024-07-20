@@ -1,9 +1,7 @@
 .container {
-    position: relative;
     background-color: var(--blue);
     color: var(--white);
-    padding: 30px 60px 30px 30px;
-    align-items: center;
+    padding: 15px 10px 30px 30px;
     border-radius: 8px;
     height: 100%;
 
@@ -16,6 +14,12 @@
     }
 }
 
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .name {
     font-size: 24px;
     white-space: nowrap;
@@ -26,14 +30,11 @@
 
 .alt_names {
     font-size: 13px;
-    margin: 0;
+    margin: -15px 0 0;
 }
 
 .icon {
     font-size: 18px;
-    position: absolute;
-    top: 15px;
-    right: 15px;
     padding: 20px;
     appearance: none;
     background: none;

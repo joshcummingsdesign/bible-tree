@@ -14,17 +14,19 @@ export const FamilyNodeContent: FC<Props> = ({node}) => {
     const {id, name, alt_names, gender, type, _dimmed} = node;
     return (
         <div className={css(styles.container, 'btr-node-container', gender, _dimmed && 'dimmed')} data-node-id={id}>
-            <h2
-                className={css(styles.name, 'btr-node-heading')}
-                style={{fontFamily: 'var(--font-heading)'}}
-                data-node-id={id}
-            >
-                {name}
-            </h2>
+            <div className={styles.heading}>
+                <h2
+                    className={css(styles.name, 'btr-node-heading')}
+                    style={{fontFamily: 'var(--font-heading)'}}
+                    data-node-id={id}
+                >
+                    {name}
+                </h2>
+                <button className={css(styles.icon, 'btr-node-icon')} data-node-id={id}>
+                    <FamilyNodeIcon type={type} />
+                </button>
+            </div>
             <p className={styles.alt_names}>{alt_names?.join(', ')}</p>
-            <button className={css(styles.icon, 'btr-node-icon')} data-node-id={id}>
-                <FamilyNodeIcon type={type} />
-            </button>
         </div>
     );
 };
