@@ -364,14 +364,16 @@ const Header = styled('div')(({theme}) => ({
     display: 'flex',
     justifyContent: 'space-between',
     flexDirection: 'column',
-    padding: 20,
     position: 'fixed',
     width: '100%',
     pointerEvents: 'none',
+    padding: '16px',
     gap: '12px',
 
     [theme.breakpoints.up('sm')]: {
         flexDirection: 'row',
+        padding: '20px',
+        gap: '20px',
     },
 }));
 
