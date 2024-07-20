@@ -10,7 +10,7 @@
     }
 
     &[class~='dimmed'] {
-        opacity: 0.2;
+        visibility: hidden;
     }
 }
 
