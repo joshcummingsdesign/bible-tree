@@ -368,6 +368,7 @@ const Header = styled('div')(({theme}) => ({
     position: 'fixed',
     width: '100%',
     pointerEvents: 'none',
+    gap: '12px',
 
     [theme.breakpoints.up('sm')]: {
         flexDirection: 'row',
@@ -380,6 +381,7 @@ const ButtonGroup = styled(ButtonGroupBase)(({theme}) => ({
 
     [theme.breakpoints.up('sm')]: {
         width: 'auto',
+        height: '57px',
     },
 }));
 
