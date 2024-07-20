@@ -24,9 +24,13 @@ export const NotesDrawer: FC<Props> = ({open, heading, text, onClose}) => (
     </Drawer>
 );
 
-const Wrapper = styled('div')({
-    width: 425,
-});
+const Wrapper = styled('div')(({theme}) => ({
+    width: '100vw',
+
+    [theme.breakpoints.up('sm')]: {
+        width: 425,
+    },
+}));
 
 const Heading = styled(Typography)(({theme}) => ({
     padding: '60px 30px',

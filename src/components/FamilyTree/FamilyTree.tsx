@@ -244,6 +244,12 @@ export const FamilyTree: FC<Props> = ({data}) => {
         setFiltersAnchorEl(null);
     };
 
+    const handleResize = () => {
+        if (!chart.current) return;
+
+        chart.current.render();
+    };
+
     /**
      * Get all the descendants of a node.
      */
@@ -287,9 +293,11 @@ export const FamilyTree: FC<Props> = ({data}) => {
     // Add event listeners
     useLayoutEffect(() => {
         document.addEventListener('click', handleNodeClick);
+        window.addEventListener('resize', handleResize);
 
         return () => {
             document.removeEventListener('click', handleNodeClick);
+            window.removeEventListener('resize', handleResize);
         };
     }, [handleNodeClick]);
 
@@ -297,21 +305,21 @@ export const FamilyTree: FC<Props> = ({data}) => {
         <div>
             <Header>
                 <ButtonGroup variant="contained" aria-label="Basic button group">
-                    <Button onClick={handleExpandAll} title="Expand All" aria-label="Expand All">
+                    <ActionButton onClick={handleExpandAll} title="Expand All" aria-label="Expand All">
                         <UnfoldMore />
-                    </Button>
-                    <Button onClick={handleCollapseAll} title="Collapse All" aria-label="Collapse All">
+                    </ActionButton>
+                    <ActionButton onClick={handleCollapseAll} title="Collapse All" aria-label="Collapse All">
                         <UnfoldLess />
-                    </Button>
-                    <Button onClick={handleFit} title="Fit to Viewport" aria-label="Fit to Viewport">
+                    </ActionButton>
+                    <ActionButton onClick={handleFit} title="Fit to Viewport" aria-label="Fit to Viewport">
                         <ZoomOutMap />
-                    </Button>
-                    <Button onClick={handleReset} title="Reset" aria-label="Reset">
+                    </ActionButton>
+                    <ActionButton onClick={handleReset} title="Reset" aria-label="Reset">
                         <HighlightOff />
-                    </Button>
-                    <Button onClick={handleShowFilters} title="Filter" aria-label="Filter">
+                    </ActionButton>
+                    <ActionButton onClick={handleShowFilters} title="Filter" aria-label="Filter">
                         <FilterAlt />
-                    </Button>
+                    </ActionButton>
                 </ButtonGroup>
                 <SearchInput
                     data={data}
@@ -360,22 +368,42 @@ export const FamilyTree: FC<Props> = ({data}) => {
     );
 };
 
-const Header = styled('div')({
+const Header = styled('div')(({theme}) => ({
     display: 'flex',
     justifyContent: 'space-between',
+    flexDirection: 'column',
     padding: 20,
     position: 'fixed',
     width: '100%',
     pointerEvents: 'none',
-});
 
-const ButtonGroup = styled(ButtonGroupBase)({
-    pointerEvents: 'auto',
-});
+    [theme.breakpoints.up('sm')]: {
+        flexDirection: 'row',
+    },
+}));
 
-const SearchInput = styled(SearchInputBase)({
+const ButtonGroup = styled(ButtonGroupBase)(({theme}) => ({
     pointerEvents: 'auto',
-});
+    width: '100%',
+
+    [theme.breakpoints.up('sm')]: {
+        width: 'auto',
+    },
+}));
+
+const ActionButton = styled(Button)(({theme}) => ({
+    [theme.breakpoints.down('sm')]: {
+        flex: 1,
+    },
+}));
+
+const SearchInput = styled(SearchInputBase)(({theme}) => ({
+    pointerEvents: 'auto',
+
+    [theme.breakpoints.down('sm')]: {
+        width: '100%',
+    },
+}));
 
 const Canvas = styled('div')({
     '& > .svg-chart-container': {
