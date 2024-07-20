@@ -3,10 +3,10 @@
 import {FC, useCallback, useLayoutEffect, useRef, useState} from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {OrgChart} from 'd3-org-chart';
-import {FamilyNode} from '@/lib/types';
+import {FamilyNode, nodeCategory, nodeGender, nodeType} from '@/lib/types';
 import {FamilyNodeContent} from './FamilyNodeContent';
-import {SearchInput} from './SearchInput';
-import {Button, ButtonGroup, Popover, styled} from '@mui/material';
+import {SearchInput as SearchInputBase} from './SearchInput';
+import {Button, ButtonGroup as ButtonGroupBase, Popover, styled} from '@mui/material';
 import {UnfoldLess, UnfoldMore, ZoomOutMap, RestartAlt, FilterAlt} from '@mui/icons-material';
 import {FilterToggles, FilterTogglesRef, FilterTogglesState} from './FilterToggles';
 
@@ -18,10 +18,13 @@ export const FamilyTree: FC<Props> = ({data}) => {
     const d3Container = useRef<HTMLDivElement>(null);
     const chart = useRef<OrgChart<FamilyNode> | null>();
     const genderToggleRef = useRef<FilterTogglesRef>(null);
+    const categoryToggleRef = useRef<FilterTogglesRef>(null);
+    const typeToggleRef = useRef<FilterTogglesRef>(null);
     const [searchValue, setSearchValue] = useState<string>('');
     const [searchSelectedNode, setSearchSelectedNode] = useState<FamilyNode | null>(null);
     const [highlightedNode, setHighlightedNode] = useState<FamilyNode | null>(null);
     const [filtersAnchorEl, setFiltersAnchorEl] = useState<HTMLButtonElement | null>(null);
+    const [filters, setFilters] = useState<string[]>([...nodeGender, ...nodeCategory, ...nodeType]);
 
     const handleExpandAll = () => {
         if (!chart.current) return;
@@ -38,7 +41,7 @@ export const FamilyTree: FC<Props> = ({data}) => {
     };
 
     const resetFilters = () => {
-        if (!chart.current || !genderToggleRef.current) return;
+        if (!chart.current || !genderToggleRef.current || !categoryToggleRef.current || !typeToggleRef.current) return;
 
         const data = chart.current.data() || [];
 
@@ -47,6 +50,8 @@ export const FamilyTree: FC<Props> = ({data}) => {
 
         // Reset the toggles
         genderToggleRef.current.reset();
+        categoryToggleRef.current.reset();
+        typeToggleRef.current.reset();
 
         // Update data and rerender graph
         chart.current.data(data).render();
@@ -154,16 +159,40 @@ export const FamilyTree: FC<Props> = ({data}) => {
         [chart]
     );
 
-    const handleGenderFilter = (value: FilterTogglesState) => {
+    const handleFiltering = (value: FilterTogglesState) => {
         if (!chart.current) return;
 
-        const data = chart.current.data() || [];
-        const filtered = data.filter((d) => !value[d.gender]);
+        // Get options to add and remove from value
+        const options = Object.keys(value).reduce<{add: string[]; remove: string[]}>(
+            (acc, key) => {
+                if (value[key] === true) {
+                    acc['add'].push(key);
+                } else {
+                    acc['remove'].push(key);
+                }
+                return acc;
+            },
+            {add: [], remove: []}
+        );
 
-        // Mark all previously expanded nodes for collapse
+        // Dedupe and remove unselected
+        const newFilters = Array.from(new Set([...filters, ...options.add])).filter((f) => !options.remove.includes(f));
+
+        // Set the state
+        setFilters(newFilters);
+
+        // Get the data
+        const data = chart.current.data() || [];
+
+        // Prepare the data to dim (the unselected options)
+        const filtered = data.filter(
+            (d) => !newFilters.includes(d.gender) || !newFilters.includes(d.category) || !newFilters.includes(d.type)
+        );
+
+        // Show all previously dimmed nodes
         data.forEach((d) => (d._dimmed = false));
 
-        // Find the nodes and toggle the highlighting
+        // Dim the nodes
         filtered.forEach((d) => {
             d._dimmed = true;
         });
@@ -269,7 +298,21 @@ export const FamilyTree: FC<Props> = ({data}) => {
                     horizontal: 'left',
                 }}
             >
-                <FilterToggles ref={genderToggleRef} options={['male', 'female']} onChange={handleGenderFilter} />
+                <FilterToggles
+                    ref={genderToggleRef}
+                    options={nodeGender as unknown as string[]}
+                    onChange={handleFiltering}
+                />
+                <FilterToggles
+                    ref={categoryToggleRef}
+                    options={nodeCategory as unknown as string[]}
+                    onChange={handleFiltering}
+                />
+                <FilterToggles
+                    ref={typeToggleRef}
+                    options={nodeType as unknown as string[]}
+                    onChange={handleFiltering}
+                />
             </FilterTogglesWindow>
             <Canvas ref={d3Container} />
         </div>
@@ -280,6 +323,17 @@ const Header = styled('div')({
     display: 'flex',
     justifyContent: 'space-between',
     padding: 20,
+    position: 'fixed',
+    width: '100%',
+    pointerEvents: 'none',
+});
+
+const ButtonGroup = styled(ButtonGroupBase)({
+    pointerEvents: 'auto',
+});
+
+const SearchInput = styled(SearchInputBase)({
+    pointerEvents: 'auto',
 });
 
 const Canvas = styled('div')({
@@ -292,5 +346,7 @@ const FilterTogglesWindow = styled(Popover)({
     '.MuiPaper-root': {
         padding: '10px 15px',
         borderRadius: '8px',
+        display: 'flex',
+        flexDirection: 'row',
     },
 });

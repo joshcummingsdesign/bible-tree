@@ -60,6 +60,15 @@ const theme = createTheme({
             ...typography.body2,
         },
     },
+    components: {
+        MuiAutocomplete: {
+            styleOverrides: {
+                inputRoot: {
+                    backgroundColor: colors.white,
+                },
+            },
+        },
+    },
 } as ThemeOptions);
 
 export default theme;

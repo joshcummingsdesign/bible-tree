@@ -3,6 +3,7 @@ import {FamilyNode} from '@/lib/types';
 import {Autocomplete, TextField} from '@mui/material';
 
 interface Props {
+    className?: string;
     data: FamilyNode[];
     value: FamilyNode | null;
     inputValue: string;
@@ -12,6 +13,7 @@ interface Props {
 }
 
 export const SearchInput: FC<Props> = ({
+    className,
     data,
     value,
     inputValue,
@@ -22,10 +24,11 @@ export const SearchInput: FC<Props> = ({
     return (
         <Autocomplete
             id="btr-search"
+            className={className}
             value={value}
             inputValue={inputValue}
             onInputChange={(_, v) => onSearchInputChange(v)}
-            getOptionLabel={(d) => `${d.id}: ${d.name}`}
+            getOptionLabel={(d) => d.name}
             onChange={(_, v, reason) => {
                 if (v) {
                     const d: any = {...v};
@@ -36,6 +39,11 @@ export const SearchInput: FC<Props> = ({
                     onClearSearchInput();
                 }
             }}
+            renderOption={({key, ...props}, d) => (
+                <li key={d.id} {...props}>
+                    {d.name}
+                </li>
+            )}
             filterOptions={(options, {inputValue}) =>
                 options.filter(
                     (option) =>

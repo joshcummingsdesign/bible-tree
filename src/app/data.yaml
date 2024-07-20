@@ -2,16 +2,19 @@ nodes:
     - id: 1
       name: Adam
       gender: male
+      category: jew
       type: person
     - id: 2
       parentId: 1
       name: Eve
       gender: female
+      category: jew
       type: person
     - id: 3
       parentId: 2
       name: Cain
       gender: male
+      category: jew
       type: person
       notes:
           - By the time of the death of Abel, Adam and Eve had many descendants.
@@ -26,6 +29,7 @@ nodes:
       parentId: 2
       name: Seth
       gender: male
+      category: jew
       type: person
       notes:
           - During his time, people begin to call upon the name of the Lord (cf. Gen. 4:26).
@@ -43,26 +47,31 @@ nodes:
       parentId: 5
       name: Enosh
       gender: male
+      category: jew
       type: person
     - id: 9
       parentId: 8
       name: Kenan
       gender: male
+      category: jew
       type: person
     - id: 10
       parentId: 9
       name: Mahalalel
       gender: male
+      category: jew
       type: person
     - id: 11
       parentId: 10
       name: Jared
       gender: male
+      category: jew
       type: person
     - id: 12
       parentId: 11
       name: Enoch
       gender: male
+      category: jew
       type: person
       notes:
           - Walked with God, and was taken up so that he should not see death (cf. Gen. 5:24; Heb. 11:5).
@@ -70,37 +79,43 @@ nodes:
       parentId: 12
       name: Methuselah
       gender: male
+      category: jew
       type: person
     - id: 14
       parentId: 13
       name: Lamech
       gender: male
+      category: jew
       type: person
     - id: 15
       parentId: 14
       name: Noah
       gender: male
+      category: jew
       type: person
     - id: 16
       parentId: 15
       name: Shem
       gender: male
+      category: jew
       type: person
     - id: 17
       parentId: 15
       name: Ham
       gender: male
-      category: gentile
+      category: jew
       type: person
     - id: 19
       parentId: 15
       name: Japheth
       gender: male
+      category: jew
       type: person
     - id: 20
       parentId: 19
       name: Gomer
       gender: male
+      category: gentile
       type: person
     - id: 21
       parentId: 19
@@ -132,7 +147,7 @@ nodes:
       parentId: 20
       name: Ashkenaz
       gender: male
-      category: jew
+      category: gentile
       type: person
     - id: 29
       parentId: 20
@@ -459,6 +474,7 @@ nodes:
       parentId: 104
       name: Shelah
       gender: male
+      category: jew
       type: person
     - id: 78
       parentId: 77
@@ -466,6 +482,7 @@ nodes:
       alt_names:
           - Hebrews
       gender: male
+      category: jew
       type: person
       notes:
           - The word "Hebrew" is derived from his name.
@@ -473,6 +490,7 @@ nodes:
       parentId: 78
       name: Peleg
       gender: male
+      category: jew
       type: person
       notes:
           - His name means "division" in Hebrew as it is said that in his day the earth was
@@ -481,21 +499,25 @@ nodes:
       parentId: 79
       name: Reu
       gender: male
+      category: jew
       type: person
     - id: 81
       parentId: 80
       name: Serug
       gender: male
+      category: jew
       type: person
     - id: 82
       parentId: 81
       name: Nahor
       gender: male
+      category: jew
       type: person
     - id: 83
       parentId: 82
       name: Terah
       gender: male
+      category: jew
       type: person
     - id: 84
       pids:
@@ -507,6 +529,7 @@ nodes:
       alt_names:
           - Abram
       gender: male
+      category: jew
       type: patriarch
       notes:
           - God makes a covenant with him and he leaves Babylon (Ur of the Chaldeans) toward
@@ -524,11 +547,13 @@ nodes:
       parentId: 83
       name: Haran
       gender: male
+      category: jew
       type: person
     - id: 87
       parentId: 86
       name: Lot
       gender: male
+      category: jew
       type: person
     - id: 88
       parentId: 87
@@ -571,6 +596,7 @@ nodes:
     #   alt_names:
     #       - Hagrites
     #   gender: female
+    #   category: gentile
     #   type: person
     #   notes:
     #       - Sarah's Egyptian servant.
@@ -594,6 +620,7 @@ nodes:
     #   mid: 90
     #   name: Isaac
     #   gender: male
+    #   category: jew
     #   type: patriarch
     #   notes:
     #       - Abraham’s son by Sarah as promised by God.
@@ -603,6 +630,7 @@ nodes:
     #       - 84
     #   name: Keturah
     #   gender: female
+    #   category: gentile
     #   type: person
     # - id: 98
     #   fid: 84
@@ -646,6 +674,7 @@ nodes:
       parentId: 16
       name: Arpachshad
       gender: male
+      category: jew
       type: person
     # - id: 105
     #   fid: 16
@@ -723,6 +752,7 @@ nodes:
     #   alt_names:
     #       - Israel
     #   gender: male
+    #   category: jew
     #   type: patriarch
     #   notes:
     #       - Isaac's younger son, Esau's twin brother.
