@@ -4,12 +4,16 @@ nodes:
       gender: male
       category: jew
       type: person
+      notes: |
+          - Adam (אָדָם) is Hebrew for "man".
     - id: 2
       parentId: 1
       name: Eve
       gender: female
       category: jew
       type: person
+      notes: |
+          - Eve (חַוָּה, *ḥawwā*) is Hebrew for "life", as she is the mother of all living (cf. Gen. 3:20).
     - id: 3
       parentId: 2
       name: Cain
@@ -33,6 +37,7 @@ nodes:
       category: jew
       type: person
       notes: |
+          * His name in Hebrew (שֵׁת) means "appointed" (cf. Gen. 4:25).
           * During his time, people begin to call upon the name of the Lord (cf. Gen. 4:26).
           * His descendants are called the "sons of God", and they begin to intermarry with
             the "daughters of man" (the ungodly). They do this merely because
@@ -96,6 +101,9 @@ nodes:
       gender: male
       category: jew
       type: person
+      notes: |
+          * His name in Hebrew (נֹחַ, *nóakh*) means "rest".
+            (cf. Gen. 5:24; Heb. 11:5).
     - id: 16
       parentId: 15
       name: Shem
