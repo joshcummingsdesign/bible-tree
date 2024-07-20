@@ -251,7 +251,7 @@ nodes:
       notes: |
           * They are called "mighty men" and "men of renown" (cf. Gen. 6:4).
           * Their name in Hebrew (נְפִילִים, *nefilim*) means "fallen ones".
-          * The Septuagint renders their name as "giants" (γίγαντες, *ɡígantes*),
+          * The Septuagint renders their name as "giants" (γίγαντες, *gígantes*),
             likely because of their tall stature.
     - id: 51
       parentId: 35
@@ -262,20 +262,8 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Defeat the Avvim and settle in and around Gaza
-          * The Philistines descend from them
-    - id: 52
-      parentId: 51
-      name: Philistia
-      alt_names:
-          - Philistines
-          - Abimelech
-      gender: male
-      category: gentile
-      type: nation
-      notes: |
-          * Their five major cities (pentapolis) are Gaza, Ashdod, Ashkelon, Gath, and Ekron.
-          * 'The generic name given to their kings is Abimelech (Hebrew: "My Father is King").'
+          * They defeat the Avvim and settle in and around Gaza (cf. Deut. 2:23).
+          * The Philistines descend from them (cf. Gen. 10:13-14).
     - id: 58
       parentId: 21
       name: Gog
@@ -300,7 +288,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Settle in Lebanon, north of Tyre.
+          * In Lebanon, north of Tyre.
     - id: 61
       parentId: 59
       name: Tyre
@@ -308,7 +296,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Settle in Lebanon, south of Sidon.
+          * In Lebanon, south of Sidon.
     - id: 62
       parentId: 37
       name: Heth
@@ -328,9 +316,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * 'Settle in or near Mount Moriah, Mount Zion to the west, and the Mount of Olives
-            to the east in Jerusalem (Hebrew: “foundation of peace” or “awe of completeness”,
-            also called Salem).'
+          * Settle in or near Mount Moriah, Mount Zion to the west, and the Mount of Olives
+            to the east in Jerusalem (Hebrew: יְרוּשָׁלַיִם ,yerūšālayim*, “foundation of peace” or “awe of completeness”),
+            also called Salem (cf. Ps. 76:2).
           * Adoni-zedek, Jebusite king of Jerusalem, gathers four Amorite kings against the
             Gibeonites, who allied with Israel under Joshua. The Lord delivers them into Israel's
             hands, makes the sun stand still, and throws down large hailstones from heaven
@@ -375,7 +363,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * 'Hebrew: "villagers".'
+          * Their name in Hebrew (פְּרִזִּי) means "villagers".
           * They dwell in Canaan.
     - id: 68
       parentId: 37
@@ -531,10 +519,6 @@ nodes:
       gender: male
       category: jew
       type: patriarch
-      notes: |
-          * God makes a covenant with him and he leaves Babylon (Ur of the Chaldeans) toward
-            the land of Canaan, and first settles in Paddan-aram (Haran), from which the Arameans
-            derive their name (modern Syria).
     - id: 85
       parentId: 83
       name: Nahor
@@ -659,7 +643,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Builds Nineveh, a major city in Assyria.
+          * Builds Nineveh, a major city in Assyria (cf. Gen. 10:11-2).
     - id: 104
       parentId: 16
       name: Arpachshad
@@ -748,6 +732,8 @@ nodes:
       gender: female
       category: jew
       type: person
+      notes: |
+          * The daughter of Haran (cf. Gen 11:29).
     - id: 123
       parentId: 122
       name: Uz
@@ -889,6 +875,7 @@ nodes:
       parentId: 39
       name: Persia
       alt_names:
+          - Iran
           - Susa
       gender: male
       category: gentile
@@ -909,8 +896,6 @@ nodes:
       gender: male
       category: gentile
       type: nation
-      notes: |
-          * Nineveh was a major city in Assyria.
     - id: 153
       parentId: 120
       name: Horites
@@ -937,6 +922,8 @@ nodes:
     - id: 156
       parentId: 106
       name: Syria
+      alt_names:
+          - Damascus
       gender: male
       category: gentile
       type: nation
@@ -977,13 +964,14 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Builds Babel, Erech, Accad, and Calneh, in the land of Shinar (Babylon).
+          * Builds Babel, Erech, Accad, and Calneh, in the land of Shinar (Babylonia) (cf. Gen. 10:8-11).
     - id: 167
       parentId: 166
       name: Babylon
       alt_names:
-          - Babel
           - Shinar
+          - Babylonia
+          - Babel
       gender: male
       category: gentile
       type: nation
@@ -1007,9 +995,6 @@ nodes:
       gender: male
       category: gentile
       type: nation
-      notes: |
-          * Absorbed and assimilated into Babylon.
-          * Ur (the birthplace of Abraham), was a major city in which they settled.
     - id: 170
       parentId: 120
       name: Teman
@@ -1412,38 +1397,52 @@ nodes:
       gender: male
       category: jew
       type: person
-    - id: 244
-      parentId: 52
+    - id: 52
+      parentId: 51
       name: Avvim
       gender: male
       category: gentile
       type: nation
+      notes: |
+          * They settle in and around Gaza until they are defeated by the Caphtorim (cf. Deut. 2:23).
+    - id: 244
+      parentId: 51
+      name: Philistia
+      alt_names:
+          - Philistines
+          - Abimelech
+      gender: male
+      category: gentile
+      type: nation
+      notes: |
+          * Their five major cities (pentapolis) are Gaza, Ashdod, Ashkelon, Gath, and Ekron.
+          * The generic name given to their kings is Abimelech (Hebrew: אֲבִימֶלֶךְ, *avimelek*, "My Father is King").
     - id: 245
-      parentId: 52
+      parentId: 244
       name: Gaza
       gender: male
       category: gentile
       type: nation
     - id: 246
-      parentId: 52
+      parentId: 244
       name: Ashdod
       gender: male
       category: gentile
       type: nation
     - id: 247
-      parentId: 52
+      parentId: 244
       name: Ashkelon
       gender: male
       category: gentile
       type: nation
     - id: 248
-      parentId: 52
+      parentId: 244
       name: Gath
       gender: male
       category: gentile
       type: nation
     - id: 249
-      parentId: 52
+      parentId: 244
       name: Ekron
       gender: male
       category: gentile
