@@ -244,12 +244,6 @@ export const FamilyTree: FC<Props> = ({data}) => {
         setFiltersAnchorEl(null);
     };
 
-    const handleResize = () => {
-        if (!chart.current) return;
-
-        chart.current.render();
-    };
-
     /**
      * Get all the descendants of a node.
      */
@@ -293,11 +287,9 @@ export const FamilyTree: FC<Props> = ({data}) => {
     // Add event listeners
     useLayoutEffect(() => {
         document.addEventListener('click', handleNodeClick);
-        window.addEventListener('resize', handleResize);
 
         return () => {
             document.removeEventListener('click', handleNodeClick);
-            window.removeEventListener('resize', handleResize);
         };
     }, [handleNodeClick]);
 
