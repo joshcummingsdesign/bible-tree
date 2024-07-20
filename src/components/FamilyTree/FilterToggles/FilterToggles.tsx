@@ -12,7 +12,7 @@ interface Props {
     onChange?: (value: FilterTogglesState) => void;
 }
 
-export const FilterToggles = forwardRef<FilterTogglesRef, Props>(({options, onChange}, ref) => {
+const FilterToggles = forwardRef<FilterTogglesRef, Props>(({options, onChange}, ref) => {
     const getInitialState = (value: boolean) =>
         options.reduce<FilterTogglesState>((acc, option) => {
             acc[option] = value;
@@ -83,3 +83,6 @@ const CheckboxGroup = styled(Box)({
     display: 'flex',
     flexDirection: 'column',
 });
+
+FilterToggles.displayName = 'FilterToggles';
+export default FilterToggles;
