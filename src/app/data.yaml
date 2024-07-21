@@ -738,11 +738,13 @@ nodes:
     - id: 122
       parentId: 85
       name: Milcah
+      alt_names:
+          - Daughter of Haran
       gender: female
       category: jew
       type: person
       notes: |
-          * The daughter of Haran (cf. Gen 11:29).
+          * The daughter of Abraham's brother Haran (cf. Gen 11:29).
     - id: 123
       parentId: 122
       name: Uz
