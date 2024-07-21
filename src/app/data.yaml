@@ -103,13 +103,14 @@ nodes:
       type: person
       notes: |
           * His name in Hebrew (נֹחַ, *nóakh*) means "rest".
-            (cf. Gen. 5:24; Heb. 11:5).
     - id: 16
       parentId: 15
       name: Shem
       gender: male
       category: jew
       type: person
+      notes: |
+          * His name in Hebrew (שם) means "name".
     - id: 17
       parentId: 15
       name: Ham
@@ -258,7 +259,7 @@ nodes:
       type: nation
       notes: |
           * They are called "mighty men" and "men of renown" (cf. Gen. 6:4).
-          * Their name in Hebrew (נְפִילִים, *nefilim*) means "fallen ones".
+          * Their name in Hebrew (נְפִילִים) means "fallen ones".
           * The Septuagint renders their name as "giants" (γίγαντες, *gígantes*),
             likely because of their tall stature.
     - id: 51
@@ -325,7 +326,7 @@ nodes:
       type: nation
       notes: |
           * Settle in or near Mount Moriah, Mount Zion to the west, and the Mount of Olives
-            to the east in Jerusalem (Hebrew: יְרוּשָׁלַיִם ,yerūšālayim*, “foundation of peace” or “awe of completeness”),
+            to the east in Jerusalem (Hebrew: יְרוּשָׁלַיִם ,*yerūšālayim*, “foundation of peace” or “awe of completeness”),
             also called Salem (cf. Ps. 76:2).
           * Adoni-zedek, Jebusite king of Jerusalem, gathers four Amorite kings against the
             Gibeonites, who allied with Israel under Joshua. The Lord delivers them into Israel's
