@@ -317,7 +317,7 @@ nodes:
       notes: |
           * After Sarah dies in Hebron (20 miles south of Jerusalem), Abraham buys Machpelah
             for 400 shekels from them (specifically Ephron the Hittite) as a burial ground.
-            Sarah, Abraham, Isaac, Rebekah, Jacob, and Leah are buried there.
+            Abraham, Sarah, Isaac, Rebekah, Jacob, and Leah are all buried there.
     - id: 63
       parentId: 37
       name: Jebusites
@@ -363,7 +363,7 @@ nodes:
       type: nation
       notes: |
           * Settled in or near Mount Hermon (northern boundary of the land of the Amorites
-            east of the Jordan)
+            east of the Jordan).
           * Shechem the Hivite defiles Dinah, and Simeon and Levi go to avenge their sister.
     - id: 67
       parentId: 37
@@ -381,7 +381,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * 'Hebrew: "faded ones".'
+          * Their name in Hebrew (רְפָאִים) means "faded ones".
           * Giants who dwell in Canaan.
           * Og was said to be the last of the Rephaim, and was the king of Bashan in the city
             of Ashtaroth (named after the pagan goddess Asherah who was often worshiped along
@@ -435,7 +435,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * 'Hebrew: "schemers".'
+          * Their name in Hebrew (זַמְזֻמִּים) means "schemers".
           * Dwell in what came to be called Ammon.
     - id: 74
       parentId: 68
@@ -444,7 +444,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * 'Hebrew: "the dreaded ones".'
+          * Their name in Hebrew (אֵימִים) means "the dreaded ones".
           * Dwell in what came to be called Moab.
     - id: 75
       parentId: 68
@@ -455,8 +455,8 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * 'Hebrew: "long-necked".'
-          * Dwell in what came to be called Hebron (20 miles south of Jerusalem).
+          * Their name in Hebrew (עֲנָקִים) means "long-necked".
+          * Dwell in what came to be called Hebron.
           * Joshua cuts off all the Anakim in Canaan. They only remain in Gaza and Ashdod
             (land of the Philistines).
     - id: 76
@@ -877,9 +877,9 @@ nodes:
       type: king
       notes: |
           * King of Elam (later becomes Persia).
-          * Amraphel, king of Shinar (Babylon) gathers him and two other kings to fight against
-            the five kings of the region of Sodom and Gomorrah. Lot gets captured, and Abraham
-            rescues him with just 318 men.
+          * Amraphel king of Shinar (Babylon) gathers him and two other kings to fight against
+            the five kings of the region of Sodom and Gomorrah (cf. Gen. 14:1). Lot gets captured, and Abraham
+            rescues him with just 318 men (cf. Gen. 14:14-16).
     - id: 147
       parentId: 39
       name: Persia
@@ -992,9 +992,9 @@ nodes:
       type: king
       notes: |
           * King of Shinar (Babylon).
-          * Gathers three other kings including Chedorlaomer to fight against the five kings
-            of the region of Sodom and Gomorrah. Lot gets captured, and Abraham rescues him
-            with just 318 men.
+          * Gathers three other kings including Chedorlaomer king of Elam to fight against the five kings
+            of the region of Sodom and Gomorrah (cf. Gen. 14:1). Lot gets captured, and Abraham rescues him
+            with just 318 men (cf. Gen. 14:14-16).
     - id: 169
       parentId: 167
       name: Chaldea
