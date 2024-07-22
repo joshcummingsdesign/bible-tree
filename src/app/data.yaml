@@ -356,7 +356,7 @@ nodes:
       type: nation
       notes: |
           * Their name in Hebrew (רְפָאִים) means "faded ones".
-          * Settle east of the Jordan in Bashan (cf. Gen. 14:5).
+          * Settle east of the Jordan in what came to be called Bashan (cf. Gen. 14:5).
     - id: 69
       parentId: 63
       name: Adoni-zedek
@@ -408,7 +408,7 @@ nodes:
       type: nation
       notes: |
           * Their name in Hebrew (זַמְזֻמִּים) means "schemers".
-          * Dwell in what came to be called Ammon.
+          * Settle east of the Jordan in what came to be called Ammon (cf. Gen. 14:5).
     - id: 74
       parentId: 68
       name: Emim
@@ -417,7 +417,7 @@ nodes:
       type: nation
       notes: |
           * Their name in Hebrew (אֵימִים) means "the dreaded ones".
-          * Settle east of the Jordan in Moab (cf. Gen. 14:5).
+          * Settle east of the Jordan in what came to be called Moab (cf. Gen. 14:5).
     - id: 75
       parentId: 68
       name: Anak
