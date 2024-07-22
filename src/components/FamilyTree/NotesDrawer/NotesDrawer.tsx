@@ -1,4 +1,4 @@
-import {FC} from 'react';
+import {FC, ReactNode} from 'react';
 import {Drawer, IconButton, styled, Typography} from '@mui/material';
 import {Close} from '@mui/icons-material';
 import Markdown from 'react-markdown';
@@ -18,10 +18,16 @@ export const NotesDrawer: FC<Props> = ({open, heading, text, onClose}) => (
             </CloseButton>
             <Heading variant="h1">{heading}</Heading>
             <Content>
-                <Markdown>{text}</Markdown>
+                <Markdown components={{a: LinkRenderer}}>{text}</Markdown>
             </Content>
         </Wrapper>
     </Drawer>
+);
+
+const LinkRenderer = (props: any) => (
+    <a href={props.href} target="_blank">
+        {props.children}
+    </a>
 );
 
 const Wrapper = styled('div')(({theme}) => ({

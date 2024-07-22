@@ -23,7 +23,7 @@ nodes:
       notes: |
           * It is likely that Adam and Eve had other descendants at the time of Abel's death.
             Thus, Cain says, "*Whoever* finds me will kill me."
-            (cf. Gen. 4:14; Gen 4:25; Gen. 5:3).
+            (cf. Gen. 4:14) (cf. Gen 4:25) (cf. Gen. 5:3).
     - id: 4
       parentId: 2
       name: Abel
@@ -82,7 +82,7 @@ nodes:
       type: person
       notes: |
           * Walked with God, and was taken up so that he should not see death
-            (cf. Gen. 5:24; Heb. 11:5).
+            (cf. Gen. 5:24) (cf. Heb. 11:5).
     - id: 13
       parentId: 12
       name: Methuselah
@@ -218,19 +218,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * After Rahab hides the spies, Joshua defeats the Canaanites at Jericho after they
-            march around the city for 7 days with 7 priests blowing 7 trumpets before the
-            ark. On the 7th day they circle 7 times and shout, and the wall comes down. Joshua
-            curses anyone who rebuilds Jericho.
-          * Jabin, Cannanite king of Hazor (a major Canaanite city which fell within the territory
-            that later became Naphtali), gathers the kings of northern Canaan against Israel.
-            The Lord delivers them into Israel's hands under Joshua. They capture Hazor, and
-            ultimately all of northern Canaan.
-          * Adoni-zedek, Jebusite king of Jerusalem, gathers four Amorite kings against the
-            Gibeonites, who allied with Israel under Joshua. The Lord delivers them into Israel's
-            hands, makes the sun stand still, and throws down large hailstones from heaven
-            on them to defeat them. Joshua has the five kings executed, and the Lord delivers
-            southern Canaan into Israel's hands.
+          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
     - id: 38
       parentId: 17
       name: Amalek
@@ -240,9 +228,15 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * During the Exodus, Israel under Moses defeats Amalek at Rephidim (the wilderness
-            of Sin and the wilderness of Sinai) when Joshua leads them in battle, and Aaron
-            and Hur lift up Moses' hands.
+          * They settled in or near the Negeb (cf. Gen. 14:7).
+    - id: 254
+      parentId: 17
+      name: Kenites
+      gender: male
+      category: gentile
+      type: nation
+      notes: |
+          * They live in the land that later becomes Midian (cf. Gen. 15:18-19) (cf. Judg. 1:16).
     - id: 39
       parentId: 16
       name: Elam
@@ -315,9 +309,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * After Sarah dies in Hebron (20 miles south of Jerusalem), Abraham buys Machpelah
-            for 400 shekels from them (specifically Ephron the Hittite) as a burial ground.
-            Abraham, Sarah, Isaac, Rebekah, Jacob, and Leah are all buried there.
+          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
     - id: 63
       parentId: 37
       name: Jebusites
@@ -325,14 +317,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Settle in or near Mount Moriah, Mount Zion to the west, and the Mount of Olives
-            to the east in Jerusalem (Hebrew: יְרוּשָׁלַיִם ,*yerūšālayim*, “foundation of peace” or “awe of completeness”),
-            also called Salem (cf. Ps. 76:2).
-          * Adoni-zedek, Jebusite king of Jerusalem, gathers four Amorite kings against the
-            Gibeonites, who allied with Israel under Joshua. The Lord delivers them into Israel's
-            hands, makes the sun stand still, and throws down large hailstones from heaven
-            on them to defeat them. Joshua has the five kings executed, and the Lord delivers
-            southern Canaan into Israel's hands.
+          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
     - id: 64
       parentId: 37
       name: Amorites
@@ -340,12 +325,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Sihon was the king of the Amorites in Heshbon (which was in the land that became
-            Gilead, named after a descendant of Manasseh) until Israel defeated him under
-            Moses.
-          * After Achan is killed for stealing from things devoted to the Lord, Joshua defeats
-            the Amorites at Ai (east of Bethel, where Abraham and Jacob had built altars)
-            in an ambush, takes the city, and hangs their king.
+          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
     - id: 65
       parentId: 37
       name: Girgashites
@@ -353,6 +333,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
+          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
           * Not much is known about them. Jewish tradition holds that they fled Canaan during
             Israel's conquest under Joshua.
     - id: 66
@@ -362,9 +343,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Settled in or near Mount Hermon (northern boundary of the land of the Amorites
-            east of the Jordan).
-          * Shechem the Hivite defiles Dinah, and Simeon and Levi go to avenge their sister.
+          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
     - id: 67
       parentId: 37
       name: Perizzites
@@ -372,8 +351,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
+          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
           * Their name in Hebrew (פְּרִזִּי) means "villagers".
-          * They dwell in Canaan.
+          * They dwell amongst the Canaanites (cf. Gen. 13:7).
     - id: 68
       parentId: 37
       name: Rephaim
@@ -382,7 +362,7 @@ nodes:
       type: nation
       notes: |
           * Their name in Hebrew (רְפָאִים) means "faded ones".
-          * Giants who dwell in Canaan.
+          * Giants who dwell in Canaan (cf. Gen. 15:18-20) (cf. Deut. 2:10-11).
           * Og was said to be the last of the Rephaim, and was the king of Bashan in the city
             of Ashtaroth (named after the pagan goddess Asherah who was often worshiped along
             with Baal, her idols were wooden poles) in the land of the Amorites until Israel
@@ -394,7 +374,7 @@ nodes:
       category: gentile
       type: king
       notes: |
-          * Jebusite king of Jerusalem in the time of Joshua
+          * Jebusite king of Jerusalem in the time of Joshua.
           * Gathers four Amorite kings against the Gibeonites, who allied with Israel under
             Joshua. The Lord delivers them into Israel's hands, makes the sun stand still,
             and throws down large hailstones from heaven on them to defeat them. Joshua has
@@ -405,6 +385,8 @@ nodes:
       gender: male
       category: gentile
       type: person
+      notes: |
+          * An Amorite ally of Abraham (cf. Gen. 14:13).
     - id: 71
       parentId: 64
       name: Sihon
@@ -495,7 +477,7 @@ nodes:
       notes: |
           * His name in Hebrew (פֶּלֶג) means "division", as it is said that in his day the earth was
             divided. This may be a reference to when God scattered all peoples from Babel
-            (cf. Gen. 10:25; Gen. 11:9).
+            (cf. Gen. 10:25) (cf. Gen. 11:9).
     - id: 80
       parentId: 79
       name: Reu
@@ -528,6 +510,8 @@ nodes:
       gender: male
       category: jew
       type: patriarch
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/the-patriarchs/abraham/)
     - id: 85
       parentId: 83
       name: Nahor
@@ -626,6 +610,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
+          * They inhabited the land of the Kenites (cf. Gen. 15:18-19) (cf. Judg. 1:16).
           * The Midianites become allies with the Moabites and hire Balaam to curse Israel,
             but God makes him bless Israel, and he prophesies the coming of the Messiah. Balaam
             returns to Midian where he and the Midianites scheme to make Israel go after Baal
