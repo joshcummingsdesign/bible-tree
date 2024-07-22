@@ -219,6 +219,7 @@ nodes:
       type: nation
       notes: |
           * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
+          * Occupied the land that became Israel (cf. Gen. 10:19).
     - id: 38
       parentId: 17
       name: Amalek
@@ -228,7 +229,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * They settled in or near the Negeb (cf. Gen. 14:7).
+          * Settle in Kadesh in the Negeb (cf. Gen. 14:7).
     - id: 39
       parentId: 16
       name: Elam
@@ -318,6 +319,7 @@ nodes:
       type: nation
       notes: |
           * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
+          * Settle in Engedi on the western shore of the Dead Sea (cf. Gen. 14:7).
     - id: 65
       parentId: 37
       name: Girgashites
@@ -354,11 +356,7 @@ nodes:
       type: nation
       notes: |
           * Their name in Hebrew (רְפָאִים) means "faded ones".
-          * Giants who dwell in Canaan (cf. Gen. 15:18-20) (cf. Deut. 2:10-11).
-          * Og was said to be the last of the Rephaim, and was the king of Bashan in the city
-            of Ashtaroth (named after the pagan goddess Asherah who was often worshiped along
-            with Baal, her idols were wooden poles) in the land of the Amorites until Israel
-            defeated him under Moses.
+          * Settle east of the Jordan in Bashan (cf. Gen. 14:5).
     - id: 69
       parentId: 63
       name: Adoni-zedek
@@ -419,7 +417,7 @@ nodes:
       type: nation
       notes: |
           * Their name in Hebrew (אֵימִים) means "the dreaded ones".
-          * Dwell in what came to be called Moab.
+          * Settle east of the Jordan in Moab (cf. Gen. 14:5).
     - id: 75
       parentId: 68
       name: Anak
@@ -695,7 +693,7 @@ nodes:
           * Isaac's firstborn son, Jacob's twin brother
           * Name means "well-made" in Hebrew
           * Takes for himself Canaanite and Ishmaelite wives
-          * 'Becomes the nation of Edom (Hebrew: "red", reference to Esau''s appearance at birth).'
+          * Becomes the nation of Edom (Hebrew: "red", reference to Esau''s appearance at birth).
           * Edom defeats the Horites in Seir and settle in their land.
     - id: 121
       parentId: 119
@@ -856,8 +854,8 @@ nodes:
       type: king
       notes: |
           * King of Elam (later becomes Persia).
-          * Amraphel king of Shinar (Babylon) gathers him and two other kings to fight against
-            the five kings of the region of Sodom and Gomorrah (cf. Gen. 14:1). Lot gets captured, and Abraham
+          * Amraphel king of Shinar (Babylon) gathers him and two other kings to fight against the five kings
+            of the region of Sodom and Gomorrah (cf. Gen. 14:1). Lot gets captured, and Abraham
             rescues him with just 318 men (cf. Gen. 14:14-16).
     - id: 147
       parentId: 39
@@ -971,9 +969,9 @@ nodes:
       type: king
       notes: |
           * King of Shinar (Babylon).
-          * Gathers three other kings including Chedorlaomer king of Elam to fight against the five kings
-            of the region of Sodom and Gomorrah (cf. Gen. 14:1). Lot gets captured, and Abraham rescues him
-            with just 318 men (cf. Gen. 14:14-16).
+          * Gathers Chedorlaomer king of Elam (later becomes Persia) and two other kings to fight against the five kings
+            of the region of Sodom and Gomorrah (cf. Gen. 14:1). Lot gets captured, and Abraham
+            rescues him with just 318 men (cf. Gen. 14:14-16).
     - id: 169
       parentId: 167
       name: Chaldea
