@@ -229,14 +229,6 @@ nodes:
       type: nation
       notes: |
           * They settled in or near the Negeb (cf. Gen. 14:7).
-    - id: 254
-      parentId: 17
-      name: Kenites
-      gender: male
-      category: gentile
-      type: nation
-      notes: |
-          * They live in the land that later becomes Midian (cf. Gen. 15:18-19) (cf. Judg. 1:16).
     - id: 39
       parentId: 16
       name: Elam
