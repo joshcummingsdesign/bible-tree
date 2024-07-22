@@ -245,10 +245,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * They are called "mighty men" and "men of renown" (cf. Gen. 6:4).
           * Their name in Hebrew (נְפִילִים) means "fallen ones".
           * The Septuagint renders their name as "giants" (γίγαντες, *gígantes*),
-            likely because of their tall stature.
+            likely because of their tall stature (cf. Gen. 6:4) (cf. Num. 13:33).
     - id: 51
       parentId: 35
       name: Caphtor
@@ -259,7 +258,7 @@ nodes:
       type: nation
       notes: |
           * They defeat the Avvim and settle in and around Gaza (cf. Deut. 2:23).
-          * The Philistines descend from them (cf. Gen. 10:13-14).
+          * The Philistines settle in their place (cf. Jer. 47:4).
     - id: 58
       parentId: 21
       name: Gog
@@ -268,7 +267,8 @@ nodes:
       type: king
       notes: |
           * His name in Hebrew (גּוֹג) means "roof".
-          * A future king of Magog who is prophesied to come and war with the people of God.
+          * A future king of Magog who is prophesied to come and war with the people of God
+            (cf. Ezek. 38:2) (cf. Ezek. 38:14-16) (cf. Rev. 20:7-8).
     - id: 59
       parentId: 37
       name: Lebanon
@@ -347,7 +347,7 @@ nodes:
       notes: |
           * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
           * Their name in Hebrew (פְּרִזִּי) means "villagers".
-          * They dwell amongst the Canaanites (cf. Gen. 13:7).
+          * Settle near Bethel and Ai (cf. Gen. 13:3) (cf. Gen. 13:7).
     - id: 68
       parentId: 37
       name: Rephaim
@@ -457,7 +457,7 @@ nodes:
       category: jew
       type: person
       notes: |
-          * The word "Hebrew" is derived from his name.
+          * The term "Hebrew" is derived from his name.
     - id: 79
       parentId: 78
       name: Peleg
@@ -648,6 +648,9 @@ nodes:
       gender: male
       category: gentile
       type: nation
+      notes: |
+          * The term "Aramean" is derived from his name.
+          * Paddan-aram (Hebrew: "the field of Aram") is named after him (cf. Gen. 25:20).
     - id: 107
       parentId: 92
       name: Nebaioth
@@ -719,7 +722,7 @@ nodes:
       category: jew
       type: person
       notes: |
-          * The daughter of Abraham's brother Haran (cf. Gen 11:29).
+          * The daughter of his brother Haran (cf. Gen 11:29).
     - id: 123
       parentId: 122
       name: Uz
@@ -953,14 +956,17 @@ nodes:
           * Builds Babel, Erech, Accad, and Calneh, in the land of Shinar (Babylonia) (cf. Gen. 10:8-11).
     - id: 167
       parentId: 166
-      name: Babylon
+      name: Babylonia
       alt_names:
           - Shinar
-          - Babylonia
+          - Babylon
           - Babel
       gender: male
       category: gentile
       type: nation
+      notes: |
+          * Originally called Shinar (cf. Gen. 11:2).
+          * Their major city was Babel (Babylon) (cf. Gen. 11:9).
     - id: 168
       parentId: 167
       name: Amraphel
@@ -970,7 +976,7 @@ nodes:
       notes: |
           * King of Shinar (Babylon).
           * Gathers Chedorlaomer king of Elam (later becomes Persia) and two other kings to fight against the five kings
-            of the region of Sodom and Gomorrah (cf. Gen. 14:1). Lot gets captured, and Abraham
+            of the region of Sodom and Gomorrah (cf. Gen. 14:1-2). Lot gets captured, and Abraham
             rescues him with just 318 men (cf. Gen. 14:14-16).
     - id: 169
       parentId: 167
@@ -981,6 +987,10 @@ nodes:
       gender: male
       category: gentile
       type: nation
+      notes: |
+          * Dwelt in the land south of Babylon.
+          * Their major city was Ur (cf. Gen. 11:28).
+          * Absorbed and assimilated into Babylonia.
     - id: 170
       parentId: 120
       name: Teman
@@ -1401,8 +1411,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Their five major cities (pentapolis) are Gaza, Ashdod, Ashkelon, Gath, and Ekron.
-          * The generic name given to their kings is Abimelech (Hebrew: אֲבִימֶלֶךְ, *avimelek*, "My Father is King").
+          * Settle in Caphtor (cf. Jer. 47:4).
+          * Their five major cities (pentapolis) are Gaza, Ashdod, Ashkelon, Gath, and Ekron (cf. Josh. 13:3).
+          * The generic name given to their kings is Abimelech (Hebrew: אֲבִימֶלֶךְ, *avimelek*, "My Father is King") (cf. Gen. 20:2).
     - id: 245
       parentId: 244
       name: Gaza
