@@ -553,6 +553,8 @@ nodes:
       gender: female
       category: jew
       type: person
+      notes: |
+          * Her name is changed from Sarai (שָׂרָי, *śārāy*, "my princess") to Sarah (שָׂרָה, *śārâ*, "princess [to all]") by God (cf. Gen. 17:15).
     - id: 91
       parentId: 84
       name: Hagar
@@ -562,9 +564,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Sarah's Egyptian servant.
-          * Mother of Ishmael, Abraham's first son by her.
-          * Sarah deals harshly with her, but God protects her and Ishmael.
+          * Sarah's Egyptian servant (cf. Gen. 16:1).
     - id: 92
       parentId: 91
       name: Ishmael
@@ -574,7 +574,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Abraham's first son by Hagar, Sarah's Egyptian servant.
+          * His name in Hebrew (יִשְׁמָעֵאל, *yishma'él*) ֵmeans "God hears" (cf. Gen. 16:11).
     - id: 93
       parentId: 90
       name: Isaac
@@ -582,8 +582,7 @@ nodes:
       category: jew
       type: patriarch
       notes: |
-          * Abraham's son by Sarah as promised by God.
-          * Marries Rebekah the Aramean (daughter of Laban, son of Nahor).
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/the-patriarchs/isaac/)
     - id: 94
       parentId: 84
       name: Keturah
@@ -663,15 +662,63 @@ nodes:
       gender: male
       category: gentile
       type: person
+    - id: 254
+      parentId: 92
+      name: Abdeel
+      gender: male
+      category: gentile
+      type: person
+    - id: 255
+      parentId: 92
+      name: Mibsam
+      gender: male
+      category: gentile
+      type: person
+    - id: 256
+      parentId: 92
+      name: Mishma
+      gender: male
+      category: gentile
+      type: person
     - id: 112
       parentId: 92
       name: Dumah
       gender: male
       category: gentile
       type: person
+    - id: 257
+      parentId: 92
+      name: Massa
+      gender: male
+      category: gentile
+      type: person
+    - id: 258
+      parentId: 92
+      name: Hadad
+      gender: male
+      category: gentile
+      type: person
     - id: 115
       parentId: 92
       name: Tema
+      gender: male
+      category: gentile
+      type: person
+    - id: 259
+      parentId: 92
+      name: Jetur
+      gender: male
+      category: gentile
+      type: person
+    - id: 260
+      parentId: 92
+      name: Naphish
+      gender: male
+      category: gentile
+      type: person
+    - id: 261
+      parentId: 92
+      name: Kedemah
       gender: male
       category: gentile
       type: person
@@ -722,7 +769,7 @@ nodes:
       category: jew
       type: person
       notes: |
-          * The daughter of his brother Haran (cf. Gen 11:29).
+          * The daughter of Haran (cf. Gen 11:29).
     - id: 123
       parentId: 122
       name: Uz
