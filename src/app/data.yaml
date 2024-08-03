@@ -529,9 +529,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * 'Hebrew: "from father".'
-          * Lot fathers him by his firstborn daughter (for his daughters deceive him) after
-            God destroys Sodom and Gomorrah.
+          * His name in Hebrew (ֵׁמוֹאָב) means "from father", as Lot fathered him
+            by his firstborn daughter after his daughters deceive him, having
+            fled the destruction of Sodom and Gomorrah (cf. Gen. 19:37).
     - id: 89
       parentId: 87
       name: Ben-ammi
@@ -542,9 +542,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * 'Hebrew: "son of my people".'
-          * Lot fathers him by his younger daughter (for his daughters deceive him) after
-            God destroys Sodom and Gomorrah.
+          * His name in Hebrew (בֶּן־עַמִּי) means "son of my people", as Lot fathered him
+            by his younger daughter after his daughters deceive him, having
+            fled the destruction of Sodom and Gomorrah (cf. Gen. 19:38).
     - id: 90
       parentId: 84
       name: Sarah
