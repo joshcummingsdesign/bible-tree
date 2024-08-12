@@ -726,11 +726,14 @@ nodes:
     - id: 119
       parentId: 93
       name: Rebekah
+      alt_names:
+          - Daughter of Bethuel
       gender: female
       category: jew
       type: person
       notes: |
-          * Daughter of Laban the Aramean, son of Nahor.
+          * Daughter of Bethuel son of Nahor (cf. Gen. 22:20-23).
+          * Sister of Laban (cf. Gen. 24:29).
     - id: 120
       parentId: 119
       name: Esau
