@@ -303,6 +303,8 @@ nodes:
       type: nation
       notes: |
           * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
+          * Dwell in and around Hebron (cf. Gen. 23:2-4).
+          * Abraham buys Machpelah from Ephron the Hittite as a burial site (cf. Gen. 23:7-9).
     - id: 63
       parentId: 37
       name: Jebusites
