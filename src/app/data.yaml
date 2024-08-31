@@ -579,7 +579,7 @@ nodes:
       notes: |
           * His name in Hebrew (יִשְׁמָעֵאל, *yishma'él*) ֵmeans "God hears" (cf. Gen. 16:11).
           * Lives for a time in Paran (cf. Gen. 21:21),
-            but then Abraham sends him away to the east toward Arabia (cf. Gen. 25:6).
+            but then Abraham sends him away from Isaac to the east toward Arabia (cf. Gen. 25:6).
     - id: 93
       parentId: 90
       name: Isaac
@@ -596,7 +596,7 @@ nodes:
       type: person
       notes: |
           * Abraham's wife after Sarah had passed (cf. Gen. 25:1).
-          * Abraham sends her sons away to the east toward Arabia (cf. Gen. 25:6).
+          * Abraham sends her sons away from Isaac to the east toward Arabia (cf. Gen. 25:6).
     - id: 262
       parentId: 94
       name: Jokshan
