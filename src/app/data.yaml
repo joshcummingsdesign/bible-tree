@@ -578,6 +578,8 @@ nodes:
       type: nation
       notes: |
           * His name in Hebrew (יִשְׁמָעֵאל, *yishma'él*) ֵmeans "God hears" (cf. Gen. 16:11).
+          * Lives for a time in Paran (cf. Gen. 21:21),
+            but then Abraham sends him away to the east toward Arabia (cf. 25:6).
     - id: 93
       parentId: 90
       name: Isaac
@@ -592,6 +594,29 @@ nodes:
       gender: female
       category: gentile
       type: person
+      notes: |
+          * Abraham's wife after Sarah had passed (cf. Gen. 25:1).
+          * Abraham sends her sons away to the east toward Arabia (cf. 25:6).
+    - id: 262
+      parentId: 94
+      name: Jokshan
+      gender: male
+      category: person
+      type: person
+    - id: 263
+      parentId: 262
+      name: Sheba
+      gender: male
+      category: gentile
+      type: nation
+    - id: 264
+      parentId: 262
+      name: Dedan
+      alt_names:
+          - Dedanites
+      gender: male
+      category: gentile
+      type: nation
     - id: 98
       parentId: 94
       name: Midian
@@ -603,10 +628,12 @@ nodes:
       type: nation
       notes: |
           * They inhabited the land of the Kenites (cf. Gen. 15:18-19) (cf. Judg. 1:16).
-          * The Midianites become allies with the Moabites and hire Balaam to curse Israel,
-            but God makes him bless Israel, and he prophesies the coming of the Messiah. Balaam
-            returns to Midian where he and the Midianites scheme to make Israel go after Baal
-            at Peor in Moab. The Midianites and Balaam are defeated by Israel under Moses.
+    - id: 265
+      parentId: 98
+      name: Ephah
+      gender: male
+      category: gentile
+      type: person
     - id: 101
       parentId: 98
       name: Jethro
