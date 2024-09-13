@@ -622,12 +622,17 @@ nodes:
       name: Midian
       alt_names:
           - Midianites
-          - Kenites
+      gender: male
+      category: gentile
+      type: nation
+    - id: 268
+      parentId: 98
+      name: Kenites
       gender: male
       category: gentile
       type: nation
       notes: |
-          * They inhabited the land of the Kenites (cf. Gen. 15:18-19) (cf. Judg. 1:16).
+          * The Midianites settle in their land (cf. Gen. 15:18-19) (cf. Judg. 1:16).
     - id: 265
       parentId: 98
       name: Ephah
@@ -778,6 +783,49 @@ nodes:
           * He is also called Edom, which in Hebrew (אֱדוֹם,'Ĕḏōm) means "red",
             because of his appearance at birth (cf. Gen. 25:25) and the red stew
             he exchanged for his birthright (cf. Gen. 25:30-33).
+    - id: 153
+      parentId: 120
+      name: Horites
+      gender: male
+      category: gentile
+      type: nation
+      notes: |
+          * Edom defeats the Horites and settle in their land.
+    - id: 154
+      parentId: 153
+      name: Seir
+      gender: male
+      category: gentile
+      type: nation
+      notes: |
+          - Known as Seir the Horite.
+          - Edom defeats the Horites and settle in their land.
+    - id: 155
+      parentId: 106
+      name: Uz
+      gender: male
+      category: gentile
+      type: person
+    - id: 266
+      parentId: 120
+      name: Judith
+      alt_names:
+          - Daughter of Beeri the Hittite
+      gender: female
+      category: gentile
+      type: person
+      notes: |
+          * Daughter of Beeri the Hitite (cf. Gen. 26:34-35).
+    - id: 267
+      parentId: 120
+      name: Basemath
+      alt_names:
+          - Daughter of Elon the Hittite
+      gender: female
+      category: gentile
+      type: person
+      notes: |
+          * Daughter of Elon the Hitite (cf. Gen. 26:34-35).
     - id: 121
       parentId: 119
       name: Jacob
@@ -961,29 +1009,6 @@ nodes:
       gender: male
       category: gentile
       type: nation
-    - id: 153
-      parentId: 120
-      name: Horites
-      gender: male
-      category: gentile
-      type: nation
-      notes: |
-          * Edom defeats the Horites and settle in their land.
-    - id: 154
-      parentId: 153
-      name: Seir
-      gender: male
-      category: gentile
-      type: nation
-      notes: |
-          - Known as Seir the Horite.
-          - Edom defeats the Horites and settle in their land.
-    - id: 155
-      parentId: 106
-      name: Uz
-      gender: male
-      category: gentile
-      type: person
     - id: 156
       parentId: 106
       name: Syria
