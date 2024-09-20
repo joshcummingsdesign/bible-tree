@@ -800,8 +800,26 @@ nodes:
       notes: |
           - Known as Seir the Horite.
           - Edom defeats the Horites and settle in their land.
+    - id: 270
+      parentId: 154
+      name: Zibeon
+      gender: male
+      category: gentile
+      type: person
+    - id: 271
+      parentId: 270
+      name: Anah
+      gender: male
+      category: gentile
+      type: person
+    - id: 272
+      parentId: 154
+      name: Dishan
+      gender: male
+      category: gentile
+      type: person
     - id: 155
-      parentId: 106
+      parentId: 272
       name: Uz
       gender: male
       category: gentile
@@ -818,14 +836,42 @@ nodes:
           * Daughter of Beeri the Hitite (cf. Gen. 26:34-35).
     - id: 267
       parentId: 120
-      name: Basemath
+      name: Adah
       alt_names:
+          - Basemath
           - Daughter of Elon the Hittite
       gender: female
       category: gentile
       type: person
       notes: |
+          * She is first called Basemath (cf. Gen. 26:34),
+            but is then called Adah thereafter (cf. Gen. 36:2).
           * Daughter of Elon the Hitite (cf. Gen. 26:34-35).
+    - id: 269
+      parentId: 120
+      name: Oholibamah
+      alt_names:
+          - Daughter of Anah the Horite
+      gender: female
+      category: gentile
+      type: person
+      notes: |
+          * The daughter of Anah the Horite (cf. Gen. 36:2).
+          * The granddaughter of Zibeon the Horite, who is also called a Hivite (cf. Gen. 36:2) (cf. Gen. 36:20).
+          * The great granddaughter of Seir the Horite (cf. Gen. 36:20).
+    - id: 273
+      parentId: 120
+      name: Basemath
+      alt_names:
+          - Mahalath
+          - Daughter of Ishmael
+      gender: female
+      category: gentile
+      type: person
+      notes: |
+          * The daughter of Ishshmael (cf. Gen. 28:9) (cf. Gen. 36:2-3).
+          * She is first called Mahalath (cf. Gen. 28:9),
+            but is then called Basemath thereafter (cf. Gen. 36:2-3).
     - id: 121
       parentId: 119
       name: Jacob
@@ -1009,7 +1055,7 @@ nodes:
       category: gentile
       type: nation
     - id: 156
-      parentId: 106
+      parentId: 155
       name: Syria
       alt_names:
           - Damascus
@@ -1555,12 +1601,6 @@ nodes:
       name: Bethuel
       gender: male
       category: jew
-      type: person
-    - id: 252
-      parentId: 154
-      name: Uz
-      gender: male
-      category: gentile
       type: person
     - id: 253
       parentId: 37
