@@ -907,39 +907,55 @@ nodes:
     - id: 125
       parentId: 121
       name: Leah
+      alt_names:
+          - Daughter of Laban
       gender: female
       category: jew
       type: person
+      notes: |
+          * The daughter of Laban (cf. Gen 29:16).
     - id: 126
       parentId: 121
       name: Rachel
+      alt_names:
+          - Daughter of Laban
       gender: female
       category: jew
       type: person
+      notes: |
+          * The daughter of Laban (cf. Gen 29:16).
     - id: 127
       parentId: 125
       name: Reuben
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/reuben/)
     - id: 128
       parentId: 125
       name: Simeon
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/simeon/)
     - id: 129
       parentId: 125
       name: Levi
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/levi/)
     - id: 130
       parentId: 125
       name: Judah
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/judah/)
     - id: 131
       parentId: 133
       name: Dan
@@ -958,12 +974,15 @@ nodes:
       gender: female
       category: jew
       type: person
+          * Rachel's servant (cf. Gen 29:29).
     - id: 134
       parentId: 121
       name: Zilpah
       gender: female
       category: jew
       type: person
+      notes: |
+          * Leah's servant (cf. Gen 29:24).
     - id: 135
       parentId: 134
       name: Gad
