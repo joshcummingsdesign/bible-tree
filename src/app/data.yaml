@@ -962,12 +962,15 @@ nodes:
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/dan/)
     - id: 132
       parentId: 133
       name: Naphtali
       gender: male
       category: jew
-      type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/naphtali/)
     - id: 133
       parentId: 121
       name: Bilhah
@@ -989,30 +992,40 @@ nodes:
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/gad/)
     - id: 137
       parentId: 134
       name: Asher
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/asher/)
     - id: 138
       parentId: 125
       name: Issachar
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/issachar/)
     - id: 140
       parentId: 125
       name: Zebulun
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/zebulun/)
     - id: 141
       parentId: 126
       name: Joseph
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/joseph/)
     - id: 142
       parentId: 126
       name: Benjamin
@@ -1435,6 +1448,8 @@ nodes:
       gender: female
       category: jew
       type: person
+      notes: |
+          * Her name in Hebrew (דִּינָה, *dīna*) means "judged or "vindicated".
     - id: 217
       parentId: 143
       name: Machir
