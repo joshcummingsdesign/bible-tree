@@ -790,7 +790,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Edom defeats the Horites and settle in their land.
+          * The original inhabitants of the hill country of Seir (cf. Gen. 14:6),
+            which was named after Seir the Hortie (cf. Gen. 36:19-20).
+          * Esau settles in the land and it becomes Edom (cf. Gen. 36:8).
     - id: 154
       parentId: 153
       name: Seir
@@ -798,8 +800,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          - Known as Seir the Horite.
-          - Edom defeats the Horites and settle in their land.
+          * The Horites were the original inhabitants of the hill country of Seir (cf. Gen. 14:6),
+            which was named after him (cf. Gen. 36:19-20).
+          * Esau settles in the land and it becomes Edom (cf. Gen. 36:8).
     - id: 270
       parentId: 154
       name: Zibeon
