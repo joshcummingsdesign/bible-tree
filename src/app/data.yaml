@@ -340,6 +340,18 @@ nodes:
       type: nation
       notes: |
           * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
+    - id: 274
+      parentId: 66
+      name: Hamor
+      gender: male
+      category: gentile
+      type: person
+    - id: 275
+      parentId: 274
+      name: Shechem
+      gender: male
+      category: gentile
+      type: person
     - id: 67
       parentId: 37
       name: Perizzites
