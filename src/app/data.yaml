@@ -821,12 +821,17 @@ nodes:
       gender: male
       category: gentile
       type: person
+      notes: |
+          * Son of Seir the Horite, though Zibeon is also called a Hivite (cf. Gen. 36:2) (cf. Gen. 36:20).
+          * Grandfather of Esau's wife Oholibamah (cf. Gen. 36:2).
     - id: 271
       parentId: 270
       name: Anah
       gender: male
       category: gentile
       type: person
+      notes: |
+          * Father of Esau's wife Oholibamah (cf. Gen. 36:2).
     - id: 272
       parentId: 154
       name: Dishan
@@ -862,6 +867,14 @@ nodes:
           * She is first called Basemath (cf. Gen. 26:34),
             but is then called Adah thereafter (cf. Gen. 36:2).
           * Daughter of Elon the Hitite (cf. Gen. 26:34-35).
+    - id: 276
+      parentId: 267
+      name: Eliphaz
+      gender: male
+      category: gentile
+      type: person
+      notes: |
+          * Eliphaz the Temanite descended from him (cf. Job 2:11).
     - id: 269
       parentId: 120
       name: Oholibamah
@@ -1185,7 +1198,7 @@ nodes:
           * Their major city was Ur (cf. Gen. 11:28).
           * Absorbed and assimilated into Babylonia.
     - id: 170
-      parentId: 120
+      parentId: 276
       name: Teman
       alt_names:
           - Temanites
