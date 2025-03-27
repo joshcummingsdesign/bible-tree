@@ -13,7 +13,7 @@ nodes:
       category: jew
       type: person
       notes: |
-          - Eve (חַוָּה, *ḥawwā*) is Hebrew for "life", as she is the mother of all living (cf. Gen. 3:20).
+          - Eve (חַוָּה, *ḥawwā*) is Hebrew for "life", as she is the mother of all living (Gen. 3:20).
     - id: 3
       parentId: 2
       name: Cain
@@ -23,7 +23,7 @@ nodes:
       notes: |
           * It is likely that Adam and Eve had other descendants at the time of Abel's death.
             Thus, Cain says, "*Whoever* finds me will kill me."
-            (cf. Gen. 4:14) (cf. Gen 4:25) (cf. Gen. 5:3).
+            (Gen. 4:14) (Gen 4:25) (Gen. 5:3).
     - id: 4
       parentId: 2
       name: Abel
@@ -37,11 +37,11 @@ nodes:
       category: jew
       type: person
       notes: |
-          * His name in Hebrew (שֵׁת) means "appointed" (cf. Gen. 4:25).
-          * During his time, people begin to call upon the name of the Lord (cf. Gen. 4:26).
+          * His name in Hebrew (שֵׁת) means "appointed" (Gen. 4:25).
+          * During his time, people begin to call upon the name of the Lord (Gen. 4:26).
           * His descendants are called the "sons of God", and they begin to intermarry with
             the "daughters of man" (the ungodly). They do this merely because
-            they are attractive (cf. Gen. 6:2).
+            they are attractive (Gen. 6:2).
     - id: 7
       parentId: 3
       name: Lamech
@@ -82,7 +82,7 @@ nodes:
       type: person
       notes: |
           * Walked with God, and was taken up so that he should not see death
-            (cf. Gen. 5:24) (cf. Heb. 11:5).
+            (Gen. 5:24) (Heb. 11:5).
     - id: 13
       parentId: 12
       name: Methuselah
@@ -218,8 +218,8 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
-          * Occupied the land that became Israel (cf. Gen. 10:19).
+          * One of the seven nations God commanded Israel to drive out (Deut. 7:1-2).
+          * Occupied the land that became Israel (Gen. 10:19).
     - id: 38
       parentId: 17
       name: Amalek
@@ -229,7 +229,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Settle in Kadesh in the Negeb (cf. Gen. 14:7).
+          * Settle in Kadesh in the Negeb (Gen. 14:7).
     - id: 39
       parentId: 16
       name: Elam
@@ -247,7 +247,7 @@ nodes:
       notes: |
           * Their name in Hebrew (נְפִילִים) means "fallen ones".
           * The Septuagint renders their name as "giants" (γίγαντες, *gígantes*),
-            likely because of their tall stature (cf. Gen. 6:4) (cf. Num. 13:33).
+            likely because of their tall stature (Gen. 6:4) (Num. 13:33).
     - id: 51
       parentId: 35
       name: Caphtor
@@ -257,8 +257,8 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * They defeat the Avvim and settle in and around Gaza (cf. Deut. 2:23).
-          * The Philistines settle in their place (cf. Jer. 47:4).
+          * They defeat the Avvim and settle in and around Gaza (Deut. 2:23).
+          * The Philistines settle in their place (Jer. 47:4).
     - id: 58
       parentId: 21
       name: Gog
@@ -268,7 +268,7 @@ nodes:
       notes: |
           * His name in Hebrew (גּוֹג) means "roof".
           * A future king of Magog who is prophesied to come and war with the people of God
-            (cf. Ezek. 38:2) (cf. Ezek. 38:14-16) (cf. Rev. 20:7-8).
+            (Ezek. 38:2) (Ezek. 38:14-16) (Rev. 20:7-8).
     - id: 59
       parentId: 37
       name: Lebanon
@@ -302,9 +302,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
-          * Dwell in and around Hebron (cf. Gen. 23:2-4).
-          * Abraham buys Machpelah from Ephron the Hittite as a burial site (cf. Gen. 23:7-9).
+          * One of the seven nations God commanded Israel to drive out (Deut. 7:1-2).
+          * Dwell in and around Hebron (Gen. 23:2-4).
+          * Abraham buys Machpelah from Ephron the Hittite as a burial site (Gen. 23:7-9).
     - id: 63
       parentId: 37
       name: Jebusites
@@ -312,7 +312,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
+          * One of the seven nations God commanded Israel to drive out (Deut. 7:1-2).
     - id: 64
       parentId: 37
       name: Amorites
@@ -320,8 +320,8 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
-          * Settle in Engedi on the western shore of the Dead Sea (cf. Gen. 14:7).
+          * One of the seven nations God commanded Israel to drive out (Deut. 7:1-2).
+          * Settle in Engedi on the western shore of the Dead Sea (Gen. 14:7).
     - id: 65
       parentId: 37
       name: Girgashites
@@ -329,7 +329,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
+          * One of the seven nations God commanded Israel to drive out (Deut. 7:1-2).
           * Not much is known about them. Jewish tradition holds that they fled Canaan during
             Israel's conquest under Joshua.
     - id: 66
@@ -339,7 +339,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
+          * One of the seven nations God commanded Israel to drive out (Deut. 7:1-2).
     - id: 274
       parentId: 66
       name: Hamor
@@ -359,9 +359,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * One of the seven nations God commanded Israel to drive out (cf. Deut. 7:1-2).
+          * One of the seven nations God commanded Israel to drive out (Deut. 7:1-2).
           * Their name in Hebrew (פְּרִזִּי) means "villagers".
-          * Settle near Bethel and Ai (cf. Gen. 13:3) (cf. Gen. 13:7).
+          * Settle near Bethel and Ai (Gen. 13:3) (Gen. 13:7).
     - id: 68
       parentId: 37
       name: Rephaim
@@ -370,7 +370,7 @@ nodes:
       type: nation
       notes: |
           * Their name in Hebrew (רְפָאִים) means "faded ones".
-          * Settle east of the Jordan in what came to be called Bashan (cf. Gen. 14:5).
+          * Settle east of the Jordan in what came to be called Bashan (Gen. 14:5).
     - id: 69
       parentId: 63
       name: Adoni-zedek
@@ -390,7 +390,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * An Amorite ally of Abraham (cf. Gen. 14:13).
+          * An Amorite ally of Abraham (Gen. 14:13).
     - id: 71
       parentId: 64
       name: Sihon
@@ -422,7 +422,7 @@ nodes:
       type: nation
       notes: |
           * Their name in Hebrew (זַמְזֻמִּים) means "schemers".
-          * Settle east of the Jordan in what came to be called Ammon (cf. Gen. 14:5).
+          * Settle east of the Jordan in what came to be called Ammon (Gen. 14:5).
     - id: 74
       parentId: 68
       name: Emim
@@ -431,7 +431,7 @@ nodes:
       type: nation
       notes: |
           * Their name in Hebrew (אֵימִים) means "the dreaded ones".
-          * Settle east of the Jordan in what came to be called Moab (cf. Gen. 14:5).
+          * Settle east of the Jordan in what came to be called Moab (Gen. 14:5).
     - id: 75
       parentId: 68
       name: Anak
@@ -481,7 +481,7 @@ nodes:
       notes: |
           * His name in Hebrew (פֶּלֶג) means "division", as it is said that in his day the earth was
             divided. This may be a reference to when God scattered all peoples from Babel
-            (cf. Gen. 10:25) (cf. Gen. 11:9).
+            (Gen. 10:25) (Gen. 11:9).
     - id: 80
       parentId: 79
       name: Reu
@@ -545,7 +545,7 @@ nodes:
       notes: |
           * His name in Hebrew (ֵׁמוֹאָב) means "from father", as Lot fathered him
             by his firstborn daughter after his daughters deceive him, having
-            fled the destruction of Sodom and Gomorrah (cf. Gen. 19:37).
+            fled the destruction of Sodom and Gomorrah (Gen. 19:37).
     - id: 89
       parentId: 87
       name: Ben-ammi
@@ -558,7 +558,7 @@ nodes:
       notes: |
           * His name in Hebrew (בֶּן־עַמִּי) means "son of my people", as Lot fathered him
             by his younger daughter after his daughters deceive him, having
-            fled the destruction of Sodom and Gomorrah (cf. Gen. 19:38).
+            fled the destruction of Sodom and Gomorrah (Gen. 19:38).
     - id: 90
       parentId: 84
       name: Sarah
@@ -568,8 +568,8 @@ nodes:
       category: jew
       type: person
       notes: |
-          * Abraham's half-sister (cf. Gen. 20:12).
-          * Her name is changed from Sarai (שָׂרָי, *śārāy*, "my princess") to Sarah (שָׂרָה, *śārâ*, "princess [to all]") by God (cf. Gen. 17:15).
+          * Abraham's half-sister (Gen. 20:12).
+          * Her name is changed from Sarai (שָׂרָי, *śārāy*, "my princess") to Sarah (שָׂרָה, *śārâ*, "princess [to all]") by God (Gen. 17:15).
     - id: 91
       parentId: 84
       name: Hagar
@@ -579,7 +579,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Sarah's Egyptian servant (cf. Gen. 16:1).
+          * Sarah's Egyptian servant (Gen. 16:1).
     - id: 92
       parentId: 91
       name: Ishmael
@@ -589,9 +589,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * His name in Hebrew (יִשְׁמָעֵאל, *yishma'él*) means "God hears" (cf. Gen. 16:11).
-          * Lives for a time in Paran (cf. Gen. 21:21),
-            but then Abraham sends him away from Isaac to the east toward Arabia (cf. Gen. 25:6).
+          * His name in Hebrew (יִשְׁמָעֵאל, *yishma'él*) means "God hears" (Gen. 16:11).
+          * Lives for a time in Paran (Gen. 21:21),
+            but then Abraham sends him away from Isaac to the east toward Arabia (Gen. 25:6).
     - id: 93
       parentId: 90
       name: Isaac
@@ -607,8 +607,8 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Abraham's wife after Sarah had passed (cf. Gen. 25:1).
-          * Abraham sends her sons away from Isaac to the east toward Arabia (cf. Gen. 25:6).
+          * Abraham's wife after Sarah had passed (Gen. 25:1).
+          * Abraham sends her sons away from Isaac to the east toward Arabia (Gen. 25:6).
     - id: 262
       parentId: 94
       name: Jokshan
@@ -644,7 +644,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * The Midianites settle in their land (cf. Gen. 15:18-19) (cf. Judg. 1:16).
+          * The Midianites settle in their land (Gen. 15:18-19) (Judg. 1:16).
     - id: 265
       parentId: 98
       name: Ephah
@@ -673,7 +673,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Builds Nineveh, a major city in Assyria (cf. Gen. 10:11-2).
+          * Builds Nineveh, a major city in Assyria (Gen. 10:11-2).
     - id: 104
       parentId: 16
       name: Arpachshad
@@ -696,7 +696,7 @@ nodes:
       type: nation
       notes: |
           * The term "Aramean" is derived from his name.
-          * Paddan-aram (Hebrew: "the field of Aram") is named after him (cf. Gen. 25:20).
+          * Paddan-aram (Hebrew: "the field of Aram") is named after him (Gen. 25:20).
     - id: 107
       parentId: 92
       name: Nebaioth
@@ -778,8 +778,8 @@ nodes:
       category: jew
       type: person
       notes: |
-          * Daughter of Bethuel son of Nahor (cf. Gen. 22:20-23).
-          * Sister of Laban (cf. Gen. 24:29).
+          * Daughter of Bethuel son of Nahor (Gen. 22:20-23).
+          * Sister of Laban (Gen. 24:29).
     - id: 120
       parentId: 119
       name: Esau
@@ -791,10 +791,10 @@ nodes:
       type: nation
       notes: |
           * His name in Hebrew (עֵשָׂו, *ʿēśāw*) means "well-made",
-            for when he was born his body was hairy like a cloak (cf. Gen. 25:25).
+            for when he was born his body was hairy like a cloak (Gen. 25:25).
           * He is also called Edom, which in Hebrew (אֱדוֹם,'Ĕḏōm) means "red",
-            because of his appearance at birth (cf. Gen. 25:25) and the red stew
-            he exchanged for his birthright (cf. Gen. 25:30-33).
+            because of his appearance at birth (Gen. 25:25) and the red stew
+            he exchanged for his birthright (Gen. 25:30-33).
     - id: 153
       parentId: 120
       name: Horites
@@ -802,9 +802,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * The original inhabitants of the hill country of Seir (cf. Gen. 14:6),
-            which was named after Seir the Hortie (cf. Gen. 36:19-20).
-          * Esau settles in the land and it becomes Edom (cf. Gen. 36:8).
+          * The original inhabitants of the hill country of Seir (Gen. 14:6),
+            which was named after Seir the Hortie (Gen. 36:19-20).
+          * Esau settles in the land and it becomes Edom (Gen. 36:8).
     - id: 154
       parentId: 153
       name: Seir
@@ -812,9 +812,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * The Horites were the original inhabitants of the hill country of Seir (cf. Gen. 14:6),
-            which was named after him (cf. Gen. 36:19-20).
-          * Esau settles in the land and it becomes Edom (cf. Gen. 36:8).
+          * The Horites were the original inhabitants of the hill country of Seir (Gen. 14:6),
+            which was named after him (Gen. 36:19-20).
+          * Esau settles in the land and it becomes Edom (Gen. 36:8).
     - id: 270
       parentId: 154
       name: Zibeon
@@ -822,8 +822,8 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Son of Seir the Horite, though Zibeon is also called a Hivite (cf. Gen. 36:2) (cf. Gen. 36:20).
-          * Grandfather of Esau's wife Oholibamah (cf. Gen. 36:2).
+          * Son of Seir the Horite, though Zibeon is also called a Hivite (Gen. 36:2) (Gen. 36:20).
+          * Grandfather of Esau's wife Oholibamah (Gen. 36:2).
     - id: 271
       parentId: 270
       name: Anah
@@ -831,7 +831,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Father of Esau's wife Oholibamah (cf. Gen. 36:2).
+          * Father of Esau's wife Oholibamah (Gen. 36:2).
     - id: 272
       parentId: 154
       name: Dishan
@@ -853,7 +853,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Daughter of Beeri the Hitite (cf. Gen. 26:34-35).
+          * Daughter of Beeri the Hitite (Gen. 26:34-35).
     - id: 267
       parentId: 120
       name: Adah
@@ -864,9 +864,9 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * She is first called Basemath (cf. Gen. 26:34),
-            but is then called Adah thereafter (cf. Gen. 36:2).
-          * Daughter of Elon the Hitite (cf. Gen. 26:34-35).
+          * She is first called Basemath (Gen. 26:34),
+            but is then called Adah thereafter (Gen. 36:2).
+          * Daughter of Elon the Hitite (Gen. 26:34-35).
     - id: 276
       parentId: 267
       name: Eliphaz
@@ -874,7 +874,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Eliphaz the Temanite descended from him (cf. Job 2:11).
+          * Eliphaz the Temanite descended from him (Job 2:11).
     - id: 269
       parentId: 120
       name: Oholibamah
@@ -884,9 +884,9 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * The daughter of Anah the Horite (cf. Gen. 36:2).
-          * The granddaughter of Zibeon the Horite, who is also called a Hivite (cf. Gen. 36:2) (cf. Gen. 36:20).
-          * The great granddaughter of Seir the Horite (cf. Gen. 36:20).
+          * The daughter of Anah the Horite (Gen. 36:2).
+          * The granddaughter of Zibeon the Horite, who is also called a Hivite (Gen. 36:2) (Gen. 36:20).
+          * The great granddaughter of Seir the Horite (Gen. 36:20).
     - id: 273
       parentId: 120
       name: Basemath
@@ -897,9 +897,9 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * The daughter of Ishshmael (cf. Gen. 28:9) (cf. Gen. 36:2-3).
-          * She is first called Mahalath (cf. Gen. 28:9),
-            but is then called Basemath thereafter (cf. Gen. 36:2-3).
+          * The daughter of Ishshmael (Gen. 28:9) (Gen. 36:2-3).
+          * She is first called Mahalath (Gen. 28:9),
+            but is then called Basemath thereafter (Gen. 36:2-3).
     - id: 121
       parentId: 119
       name: Jacob
@@ -919,7 +919,7 @@ nodes:
       category: jew
       type: person
       notes: |
-          * The daughter of Haran (cf. Gen 11:29).
+          * The daughter of Haran (Gen 11:29).
     - id: 123
       parentId: 122
       name: Uz
@@ -941,7 +941,7 @@ nodes:
       category: jew
       type: person
       notes: |
-          * The daughter of Laban (cf. Gen 29:16).
+          * The daughter of Laban (Gen 29:16).
     - id: 126
       parentId: 121
       name: Rachel
@@ -951,7 +951,7 @@ nodes:
       category: jew
       type: person
       notes: |
-          * The daughter of Laban (cf. Gen 29:16).
+          * The daughter of Laban (Gen 29:16).
     - id: 127
       parentId: 125
       name: Reuben
@@ -1005,7 +1005,7 @@ nodes:
       gender: female
       category: jew
       type: person
-          * Rachel's servant (cf. Gen 29:29).
+          * Rachel's servant (Gen 29:29).
     - id: 134
       parentId: 121
       name: Zilpah
@@ -1013,7 +1013,7 @@ nodes:
       category: jew
       type: person
       notes: |
-          * Leah's servant (cf. Gen 29:24).
+          * Leah's servant (Gen 29:24).
     - id: 135
       parentId: 134
       name: Gad
@@ -1087,8 +1087,8 @@ nodes:
       notes: |
           * King of Elam (later becomes Persia).
           * Amraphel king of Shinar (Babylon) gathers him and two other kings to fight against the five kings
-            of the region of Sodom and Gomorrah (cf. Gen. 14:1). Lot gets captured, and Abraham
-            rescues him with just 318 men (cf. Gen. 14:14-16).
+            of the region of Sodom and Gomorrah (Gen. 14:1). Lot gets captured, and Abraham
+            rescues him with just 318 men (Gen. 14:14-16).
     - id: 147
       parentId: 39
       name: Persia
@@ -1159,7 +1159,7 @@ nodes:
       category: gentile
       type: person
       notes: |
-          * Builds Babel, Erech, Accad, and Calneh, in the land of Shinar (Babylonia) (cf. Gen. 10:8-11).
+          * Builds Babel, Erech, Accad, and Calneh, in the land of Shinar (Babylonia) (Gen. 10:8-11).
     - id: 167
       parentId: 166
       name: Babylonia
@@ -1171,8 +1171,8 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Originally called Shinar (cf. Gen. 11:2).
-          * Their major city was Babel (Babylon) (cf. Gen. 11:9).
+          * Originally called Shinar (Gen. 11:2).
+          * Their major city was Babel (Babylon) (Gen. 11:9).
     - id: 168
       parentId: 167
       name: Amraphel
@@ -1182,8 +1182,8 @@ nodes:
       notes: |
           * King of Shinar (Babylon).
           * Gathers Chedorlaomer king of Elam (later becomes Persia) and two other kings to fight against the five kings
-            of the region of Sodom and Gomorrah (cf. Gen. 14:1-2). Lot gets captured, and Abraham
-            rescues him with just 318 men (cf. Gen. 14:14-16).
+            of the region of Sodom and Gomorrah (Gen. 14:1-2). Lot gets captured, and Abraham
+            rescues him with just 318 men (Gen. 14:14-16).
     - id: 169
       parentId: 167
       name: Chaldea
@@ -1195,7 +1195,7 @@ nodes:
       type: nation
       notes: |
           * Dwelt in the land south of Babylon.
-          * Their major city was Ur (cf. Gen. 11:28).
+          * Their major city was Ur (Gen. 11:28).
           * Absorbed and assimilated into Babylonia.
     - id: 170
       parentId: 276
@@ -1608,7 +1608,7 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * They settle in and around Gaza until they are defeated by the Caphtorim (cf. Deut. 2:23).
+          * They settle in and around Gaza until they are defeated by the Caphtorim (Deut. 2:23).
     - id: 244
       parentId: 51
       name: Philistia
@@ -1619,9 +1619,9 @@ nodes:
       category: gentile
       type: nation
       notes: |
-          * Settle in Caphtor (cf. Jer. 47:4).
-          * Their five major cities (pentapolis) are Gaza, Ashdod, Ashkelon, Gath, and Ekron (cf. Josh. 13:3).
-          * The generic name given to their kings is Abimelech (Hebrew: אֲבִימֶלֶךְ, *avimelek*, "My Father is King") (cf. Gen. 20:2).
+          * Settle in Caphtor (Jer. 47:4).
+          * Their five major cities (pentapolis) are Gaza, Ashdod, Ashkelon, Gath, and Ekron (Josh. 13:3).
+          * The generic name given to their kings is Abimelech (Hebrew: אֲבִימֶלֶךְ, *avimelek*, "My Father is King") (Gen. 20:2).
     - id: 245
       parentId: 244
       name: Gaza
