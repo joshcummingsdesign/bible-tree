@@ -984,6 +984,32 @@ nodes:
       type: person
       notes: |
           * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/judah/)
+    - id: 277
+      parentId: 130
+      name: Bath-shua
+      gender: female
+      category: gentile
+      type: person
+      notes: |
+          * Daughter of Shuah the Canaanite (Gen. 38:2).
+    - id: 278
+      parentId: 277
+      name: Er
+      gender: male
+      category: jew
+      type: person
+    - id: 279
+      parentId: 277
+      name: Onan
+      gender: male
+      category: jew
+      type: person
+    - id: 280
+      parentId: 277
+      name: Shelah
+      gender: male
+      category: jew
+      type: person
     - id: 131
       parentId: 133
       name: Dan
@@ -1402,12 +1428,17 @@ nodes:
       gender: female
       category: jew
       type: person
+      notes: |
+          * The widow of Judah's sons Er and then Onan, who was to be give in
+            marriage to Shelah (Gen. 38:6-11), but Judah mistakes her for a prostitute (Gen. 38:14-15).
     - id: 205
       parentId: 204
       name: Perez
       gender: male
       category: jew
       type: person
+      notes: |
+          * His name in Hebrew (פֶּרֶץ, pérets). means "a breach" (Gen. 38:28-29).
     - id: 206
       parentId: 204
       name: Zerah
