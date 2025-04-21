@@ -1005,6 +1005,7 @@ nodes:
       gender: female
       category: jew
       type: person
+      notes: |
           * Rachel's servant (Gen 29:29).
     - id: 134
       parentId: 121
