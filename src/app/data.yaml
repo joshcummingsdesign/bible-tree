@@ -1087,24 +1087,34 @@ nodes:
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/benjamin/)
     - id: 143
       parentId: 145
       name: Manasseh
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/manasseh/)
     - id: 144
       parentId: 145
       name: Ephraim
       gender: male
       category: jew
       type: person
+      notes: |
+          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/ephraim/)
     - id: 145
       parentId: 141
       name: Asenath
       gender: female
-      category: jew
+      category: gentile
       type: person
+      notes: |
+          * The Egyptian daughter of Potiphera priest of On (modern Heliopolis, Egypt).
+            She is given in marriage to Joseph by Pharaoh after he interprets
+            his dreams about the famine (Gen. 41:45).
     - id: 146
       parentId: 39
       name: Chedorlaomer
