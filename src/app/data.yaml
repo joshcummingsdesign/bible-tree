@@ -968,6 +968,44 @@ nodes:
       type: person
       notes: |
           * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/simeon/)
+    - id: 284
+      parentId: 128
+      name: Jemuel
+      gender: male
+      category: jew
+      type: person
+    - id: 285
+      parentId: 128
+      name: Jamin
+      gender: male
+      category: jew
+      type: person
+    - id: 286
+      parentId: 128
+      name: Ohad
+      gender: male
+      category: jew
+      type: person
+    - id: 287
+      parentId: 128
+      name: Jachin
+      gender: male
+      category: jew
+      type: person
+    - id: 288
+      parentId: 128
+      name: Zohar
+      gender: male
+      category: jew
+      type: person
+    - id: 289
+      parentId: 128
+      name: Shaul
+      gender: male
+      category: jew
+      type: person
+      notes: |
+          * The son of a Canaanite woman (Gen. 46:10).
     - id: 129
       parentId: 125
       name: Levi
@@ -1018,6 +1056,12 @@ nodes:
       type: person
       notes: |
           * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/dan/)
+    - id: 321
+      parentId: 131
+      name: Hushim
+      gender: male
+      category: jew
+      type: person
     - id: 132
       parentId: 133
       name: Naphtali
@@ -1025,6 +1069,26 @@ nodes:
       category: jew
       notes: |
           * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/naphtali/)
+    - id: 322
+      parentId: 132
+      name: Jahzeel
+      gender: male
+      category: jew
+    - id: 323
+      parentId: 132
+      name: Guni
+      gender: male
+      category: jew
+    - id: 323
+      parentId: 132
+      name: Jezer
+      gender: male
+      category: jew
+    - id: 324
+      parentId: 132
+      name: Shillem
+      gender: male
+      category: jew
     - id: 133
       parentId: 121
       name: Bilhah
@@ -1049,6 +1113,48 @@ nodes:
       type: person
       notes: |
           * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/gad/)
+    - id: 298
+      parentId: 135
+      name: Ziphion
+      gender: male
+      category: jew
+      type: person
+    - id: 299
+      parentId: 135
+      name: Haggi
+      gender: male
+      category: jew
+      type: person
+    - id: 300
+      parentId: 135
+      name: Shuni
+      gender: male
+      category: jew
+      type: person
+    - id: 301
+      parentId: 135
+      name: Ezbon
+      gender: male
+      category: jew
+      type: person
+    - id: 302
+      parentId: 135
+      name: Eri
+      gender: male
+      category: jew
+      type: person
+    - id: 303
+      parentId: 135
+      name: Arodi
+      gender: male
+      category: jew
+      type: person
+    - id: 304
+      parentId: 135
+      name: Areli
+      gender: male
+      category: jew
+      type: person
     - id: 137
       parentId: 134
       name: Asher
@@ -1057,6 +1163,48 @@ nodes:
       type: person
       notes: |
           * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/asher/)
+    - id: 305
+      parentId: 137
+      name: Imnah
+      gender: male
+      category: jew
+      type: person
+    - id: 306
+      parentId: 137
+      name: Ishvah
+      gender: male
+      category: jew
+      type: person
+    - id: 307
+      parentId: 137
+      name: Ishvi
+      gender: male
+      category: jew
+      type: person
+    - id: 308
+      parentId: 137
+      name: Beriah
+      gender: male
+      category: jew
+      type: person
+    - id: 310
+      parentId: 308
+      name: Heber
+      gender: male
+      category: jew
+      type: person
+    - id: 311
+      parentId: 308
+      name: Malchiel
+      gender: male
+      category: jew
+      type: person
+    - id: 309
+      parentId: 137
+      name: Serah
+      gender: female
+      category: jew
+      type: person
     - id: 138
       parentId: 125
       name: Issachar
@@ -1064,7 +1212,31 @@ nodes:
       category: jew
       type: person
       notes: |
-          * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/issachar/)
+          * [main article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/issachar/)
+    - id: 291
+      parentId: 138
+      name: Tola
+      gender: male
+      category: jew
+      type: person
+    - id: 292
+      parentId: 138
+      name: Puvah
+      gender: male
+      category: jew
+      type: person
+    - id: 293
+      parentId: 138
+      name: Yob
+      gender: male
+      category: jew
+      type: person
+    - id: 294
+      parentId: 138
+      name: Shimron
+      gender: male
+      category: jew
+      type: person
     - id: 140
       parentId: 125
       name: Zebulun
@@ -1073,6 +1245,24 @@ nodes:
       type: person
       notes: |
           * [Main Article](https://dev-bible-notes.pantheonsite.io/resources/12-tribes-of-israel/zebulun/)
+    - id: 295
+      parentId: 140
+      name: Sered
+      gender: male
+      category: jew
+      type: person
+    - id: 296
+      parentId: 140
+      name: Elon
+      gender: male
+      category: jew
+      type: person
+    - id: 297
+      parentId: 140
+      name: Jahleel
+      gender: male
+      category: jew
+      type: person
     - id: 141
       parentId: 126
       name: Joseph
@@ -1159,9 +1349,27 @@ nodes:
       gender: male
       category: gentile
       type: nation
+    - id: 281
+      parentId: 127
+      name: Hanoch
+      gender: male
+      category: jew
+      type: person
     - id: 158
       parentId: 127
       name: Pallu
+      gender: male
+      category: jew
+      type: person
+    - id: 282
+      parentId: 127
+      name: Hezron
+      gender: male
+      category: jew
+      type: person
+    - id: 283
+      parentId: 127
+      name: Carmi
       gender: male
       category: jew
       type: person
@@ -1467,6 +1675,12 @@ nodes:
       gender: male
       category: jew
       type: person
+    - id: 290
+      parentId: 205
+      name: Hamul
+      gender: male
+      category: jew
+      type: person
     - id: 209
       parentId: 37
       name: Rahab
@@ -1586,9 +1800,63 @@ nodes:
       gender: male
       category: jew
       type: prophet
+    - id: 312
+      parentId: 142
+      name: Bela
+      gender: male
+      category: jew
+      type: person
+    - id: 313
+      parentId: 142
+      name: Becher
+      gender: male
+      category: jew
+      type: person
+    - id: 314
+      parentId: 142
+      name: Ashbel
+      gender: male
+      category: jew
+      type: person
     - id: 235
       parentId: 142
       name: Gera
+      gender: male
+      category: jew
+      type: person
+    - id: 315
+      parentId: 142
+      name: Naaman
+      gender: male
+      category: jew
+      type: person
+    - id: 316
+      parentId: 142
+      name: Ehi
+      gender: male
+      category: jew
+      type: person
+    - id: 317
+      parentId: 142
+      name: Rosh
+      gender: male
+      category: jew
+      type: person
+    - id: 318
+      parentId: 142
+      name: Muppim
+      gender: male
+      category: jew
+      type: person
+    - id: 319
+      parentId: 142
+      name: Huppim
+      gender: male
+      category: jew
+      type: person
+    - id: 320
+      parentId: 142
+      name: Ard
       gender: male
       category: jew
       type: person
