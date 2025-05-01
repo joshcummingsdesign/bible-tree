@@ -658,7 +658,7 @@ nodes:
           - Reuel
           - Hobab
       gender: male
-      category: jew
+      category: gentile
       type: person
     - id: 102
       parentId: 101
@@ -1566,6 +1566,8 @@ nodes:
       gender: male
       category: jew
       type: person
+      notes: |
+          * His name in Hebrew (גֵּרְשֹׁם, gershóm) means "sojourner" (Ex. 2:22).
     - id: 192
       parentId: 190
       name: Eliezer
@@ -1656,7 +1658,7 @@ nodes:
       category: jew
       type: person
       notes: |
-          * His name in Hebrew (פֶּרֶץ, pérets). means "a breach" (Gen. 38:28-29).
+          * His name in Hebrew (פֶּרֶץ, pérets) means "a breach" (Gen. 38:28-29).
     - id: 206
       parentId: 204
       name: Zerah
