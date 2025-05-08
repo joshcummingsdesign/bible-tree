@@ -1567,13 +1567,15 @@ nodes:
       category: jew
       type: person
       notes: |
-          * His name in Hebrew (גֵּרְשֹׁם, gershóm) means "sojourner" (Ex. 2:22).
+          * His name in Hebrew (גֵּרְשֹׁם, gershóm) means "sojourner" (Ex. 2:21-22).
     - id: 192
       parentId: 190
       name: Eliezer
       gender: male
       category: jew
       type: person
+      notes: |
+          * His name in Hebrew (אֱלִיעֶזֶר, eliézer) means "my God is help" (Ex. 18:2-4).
     - id: 193
       parentId: 181
       name: Korah
