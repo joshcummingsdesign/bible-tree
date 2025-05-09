@@ -1576,6 +1576,10 @@ nodes:
       type: person
       notes: |
           * His name in Hebrew (אֱלִיעֶזֶר, eliézer) means "my God is help" (Ex. 18:2-4).
+          * Moses fails to circumcise him, and because of this Moses falls severely ill.
+            He is bedridden, so Zipporah performs the circumcision herself.
+            She casts the foreskin at Moses' feet and tells him that their lives
+            and their marriage had been preserved by the blood of her son (Ex. 4:24-26).
     - id: 193
       parentId: 181
       name: Korah
