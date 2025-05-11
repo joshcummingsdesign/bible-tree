@@ -1490,7 +1490,13 @@ nodes:
       type: person
     - id: 179
       parentId: 176
-      name: Asaph
+      name: Libni
+      gender: male
+      category: jew
+      type: person
+    - id: 335
+      parentId: 176
+      name: Shimei
       gender: male
       category: jew
       type: person
@@ -1506,30 +1512,70 @@ nodes:
       gender: male
       category: jew
       type: person
+    - id: 359
+      parentId: 177
+      name: Hebron
+      gender: male
+      category: jew
+      type: person
+    - id: 360
+      parentId: 177
+      name: Uzziel
+      gender: male
+      category: jew
+      type: person
+    - id: 362
+      parentId: 177
+      name: Mishael
+      gender: male
+      category: jew
+      type: person
+    - id: 363
+      parentId: 177
+      name: Elzaphan
+      gender: male
+      category: jew
+      type: person
+    - id: 364
+      parentId: 177
+      name: Sithri
+      gender: male
+      category: jew
+      type: person
     - id: 182
       parentId: 180
       name: Jochebed
       gender: female
       category: jew
       type: person
+      notes: |
+          * Amram's aunt whom he married (Ex. 6:20).
+    - id: 356
+      parentId: 182
+      name: Miriam
+      gender: female
+      category: jew
+      type: prophet
     - id: 183
       parentId: 182
       name: Aaron
       gender: male
       category: jew
       type: priest
-    - id: 184
-      parentId: 182
-      name: Moses
-      gender: male
-      category: jew
-      type: prophet
     - id: 185
       parentId: 183
       name: Elisheba
       gender: female
       category: jew
       type: person
+      notes: |
+          * The daughter of Amminadab and sister of Nahshon from the line of Perez (Ex. 6:23).
+    - id: 184
+      parentId: 182
+      name: Moses
+      gender: male
+      category: jew
+      type: prophet
     - id: 186
       parentId: 185
       name: Nadab
@@ -1548,6 +1594,8 @@ nodes:
       gender: male
       category: jew
       type: priest
+      notes: |
+          * His wife was the daughter of Putiel, an Israelite of an unknown ancestry (Ex. 6:25).
     - id: 189
       parentId: 185
       name: Ithamar
@@ -1586,9 +1634,33 @@ nodes:
       gender: male
       category: jew
       type: person
+    - id: 357
+      parentId: 181
+      name: Nepheg
+      gender: male
+      category: jew
+      type: person
+    - id: 358
+      parentId: 181
+      name: Zichri
+      gender: male
+      category: jew
+      type: person
+    - id: 368
+      parentId: 193
+      name: Assir
+      gender: male
+      category: jew
+      type: person
     - id: 194
       parentId: 193
       name: Elkanah
+      gender: male
+      category: jew
+      type: person
+    - id: 369
+      parentId: 193
+      name: Abiasaph
       gender: male
       category: jew
       type: person
@@ -1612,9 +1684,13 @@ nodes:
       type: person
     - id: 198
       parentId: 178
-      name: Ethan
-      alt_names:
-          - Jeduthun
+      name: Mahli
+      gender: male
+      category: jew
+      type: person
+    - id: 361
+      parentId: 178
+      name: Mushi
       gender: male
       category: jew
       type: person
@@ -1701,6 +1777,18 @@ nodes:
     - id: 210
       parentId: 208
       name: Ram
+      gender: male
+      category: jew
+      type: person
+    - id: 366
+      parentId: 210
+      name: Amminadab
+      gender: male
+      category: jew
+      type: person
+    - id: 367
+      parentId: 366
+      name: Nahshon
       gender: male
       category: jew
       type: person
