@@ -657,6 +657,10 @@ nodes:
       alt_names:
           - Reuel
           - Hobab
+      notes: |
+          * Priest of Midian (Exod. 3:1).
+          * His faith in the Lord is refreshed when Moses tells him how the Lord
+            delivered the Israelites from Egypt (Exod. 18:10-12).
       gender: male
       category: gentile
       type: person
@@ -1608,6 +1612,10 @@ nodes:
       gender: female
       category: jew
       type: person
+      notes: |
+          * Jethro's daughter (Ex. 2:21).
+          * Some time after Eliezer's circumcision, Moses sends her and thier sons back to her father Jethro (Ex. 18:2-4).
+          * After the Israelites leave Egypt, Jethro brings her and her sons back to Moses in the wilderness at Horeb (Ex. 18:5).
     - id: 191
       parentId: 190
       name: Gershom
